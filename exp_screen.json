@@ -1,0 +1,3490 @@
+{
+ "params": {
+  "churn": 0.117,
+  "fail_share": 0.509,
+  "alpha": 0.05,
+  "z_bonf": {
+   "5": 2.326,
+   "10": 2.576
+  },
+  "reps": 400,
+  "designs": {
+   "5": {
+    "full_rows": 32,
+    "res3_rows": 8,
+    "res4_rows": 16,
+    "res3_alias_of_01": 2,
+    "res4_alias_of_01": null,
+    "res3_orthogonal": true,
+    "res4_orthogonal": true
+   },
+   "10": {
+    "full_rows": 1024,
+    "res3_rows": 16,
+    "res4_rows": 32,
+    "res3_alias_of_01": 2,
+    "res4_alias_of_01": null,
+    "res3_orthogonal": true,
+    "res4_orthogonal": true
+   }
+  }
+ },
+ "cells": {
+  "k5|null|homog|400": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 0.9,
+    "recovery_se": 0.3,
+    "fwer_pct": 3.5,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 2.0,
+    "est_alias_col": 0.0017,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 0.9,
+    "recovery_se": 0.3,
+    "fwer_pct": 2.8,
+    "fwer_se": 0.8,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": 0.0011,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 1.5,
+    "recovery_se": 0.4,
+    "fwer_pct": 3.8,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": -0.0005,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 1.0,
+    "recovery_se": 0.4,
+    "fwer_pct": 3.2,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 1.0,
+    "est_alias_col": -0.0014,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 5.0,
+    "recovery_se": 0.8,
+    "fwer_pct": 16.2,
+    "fwer_se": 1.8,
+    "alias_admit_pct": 5.8,
+    "est_alias_col": 0.0149,
+    "calls_avg": 336.6,
+    "early_stop_pct": 25.5
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 0.2,
+    "recovery_se": 0.2,
+    "fwer_pct": 1.5,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": 0.0013,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 0.4,
+    "recovery_se": 0.2,
+    "fwer_pct": 1.0,
+    "fwer_se": 0.5,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": 0.0013,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k5|null|homog|1600": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 0.1,
+    "recovery_se": 0.1,
+    "fwer_pct": 2.8,
+    "fwer_se": 0.8,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": -0.0023,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 0.5,
+    "recovery_se": 0.2,
+    "fwer_pct": 2.0,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": 0.0001,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 0.9,
+    "recovery_se": 0.3,
+    "fwer_pct": 4.0,
+    "fwer_se": 1.0,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": 0.0001,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 0.6,
+    "recovery_se": 0.3,
+    "fwer_pct": 4.0,
+    "fwer_se": 1.0,
+    "alias_admit_pct": 1.2,
+    "est_alias_col": -0.0003,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 7.9,
+    "recovery_se": 1.0,
+    "fwer_pct": 22.0,
+    "fwer_se": 2.1,
+    "alias_admit_pct": 8.0,
+    "est_alias_col": 0.0146,
+    "calls_avg": 1150.4,
+    "early_stop_pct": 36.8
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 0.6,
+    "recovery_se": 0.3,
+    "fwer_pct": 2.0,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0033,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 0.2,
+    "recovery_se": 0.2,
+    "fwer_pct": 1.2,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": 0.0038,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k5|null|homog|6400": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 2.1,
+    "recovery_se": 0.5,
+    "fwer_pct": 2.2,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": 0.0001,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 1.5,
+    "recovery_se": 0.4,
+    "fwer_pct": 1.2,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": -0.0011,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 0.6,
+    "recovery_se": 0.3,
+    "fwer_pct": 3.2,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 1.0,
+    "est_alias_col": 0.0011,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 1.0,
+    "recovery_se": 0.4,
+    "fwer_pct": 2.5,
+    "fwer_se": 0.8,
+    "alias_admit_pct": 1.0,
+    "est_alias_col": 0.001,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 8.4,
+    "recovery_se": 1.0,
+    "fwer_pct": 32.5,
+    "fwer_se": 2.3,
+    "alias_admit_pct": 8.8,
+    "est_alias_col": 0.0098,
+    "calls_avg": 3811.1,
+    "early_stop_pct": 49.0
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 0.8,
+    "recovery_se": 0.3,
+    "fwer_pct": 1.5,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": 0.001,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 0.6,
+    "recovery_se": 0.3,
+    "fwer_pct": 1.2,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": -0.0018,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k5|main|homog|400": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 14.9,
+    "recovery_se": 1.3,
+    "fwer_pct": 4.2,
+    "fwer_se": 1.0,
+    "alias_admit_pct": 1.2,
+    "est_alias_col": -0.0008,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 13.0,
+    "recovery_se": 1.2,
+    "fwer_pct": 2.5,
+    "fwer_se": 0.8,
+    "alias_admit_pct": 1.0,
+    "est_alias_col": -0.0041,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 15.1,
+    "recovery_se": 1.3,
+    "fwer_pct": 3.2,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 1.5,
+    "est_alias_col": 0.0005,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 4.4,
+    "recovery_se": 0.7,
+    "fwer_pct": 2.8,
+    "fwer_se": 0.8,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": 0.0001,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 22.9,
+    "recovery_se": 1.5,
+    "fwer_pct": 10.0,
+    "fwer_se": 1.5,
+    "alias_admit_pct": 3.8,
+    "est_alias_col": 0.0122,
+    "calls_avg": 279.3,
+    "early_stop_pct": 54.8
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 1.0,
+    "recovery_se": 0.4,
+    "fwer_pct": 0.8,
+    "fwer_se": 0.4,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": -0.0047,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 0.8,
+    "recovery_se": 0.3,
+    "fwer_pct": 0.5,
+    "fwer_se": 0.4,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0038,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k5|main|homog|1600": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 57.4,
+    "recovery_se": 1.7,
+    "fwer_pct": 2.0,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": 0.0,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 58.2,
+    "recovery_se": 1.7,
+    "fwer_pct": 1.5,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0059,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 57.1,
+    "recovery_se": 1.7,
+    "fwer_pct": 4.5,
+    "fwer_se": 1.0,
+    "alias_admit_pct": 2.2,
+    "est_alias_col": 0.0012,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 14.2,
+    "recovery_se": 1.2,
+    "fwer_pct": 3.2,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 1.5,
+    "est_alias_col": -0.0006,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 41.1,
+    "recovery_se": 1.7,
+    "fwer_pct": 16.5,
+    "fwer_se": 1.9,
+    "alias_admit_pct": 8.2,
+    "est_alias_col": 0.0137,
+    "calls_avg": 501.6,
+    "early_stop_pct": 94.8
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 3.1,
+    "recovery_se": 0.6,
+    "fwer_pct": 0.8,
+    "fwer_se": 0.4,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": 0.0014,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 2.6,
+    "recovery_se": 0.6,
+    "fwer_pct": 1.8,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 1.0,
+    "est_alias_col": 0.0012,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k5|main|homog|6400": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 99.6,
+    "recovery_se": 0.2,
+    "fwer_pct": 1.8,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 1.0,
+    "est_alias_col": -0.0001,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 99.9,
+    "recovery_se": 0.1,
+    "fwer_pct": 2.8,
+    "fwer_se": 0.8,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": -0.0047,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 99.6,
+    "recovery_se": 0.2,
+    "fwer_pct": 1.2,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": -0.0005,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 54.9,
+    "recovery_se": 1.8,
+    "fwer_pct": 3.2,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 1.2,
+    "est_alias_col": -0.0001,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 43.2,
+    "recovery_se": 1.8,
+    "fwer_pct": 15.2,
+    "fwer_se": 1.8,
+    "alias_admit_pct": 6.2,
+    "est_alias_col": 0.0142,
+    "calls_avg": 553.6,
+    "early_stop_pct": 100.0
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 16.2,
+    "recovery_se": 1.3,
+    "fwer_pct": 1.2,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": -0.0019,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 17.6,
+    "recovery_se": 1.3,
+    "fwer_pct": 1.0,
+    "fwer_se": 0.5,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": 0.0014,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k5|interference|homog|400": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 1.2,
+    "recovery_se": 0.4,
+    "fwer_pct": 3.0,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": 0.0034,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 1.6,
+    "recovery_se": 0.4,
+    "fwer_pct": 1.8,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0581,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 0.6,
+    "recovery_se": 0.3,
+    "fwer_pct": 2.8,
+    "fwer_se": 0.8,
+    "alias_admit_pct": 1.0,
+    "est_alias_col": 0.0004,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 0.6,
+    "recovery_se": 0.3,
+    "fwer_pct": 1.8,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 1.2,
+    "est_alias_col": -0.0061,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 6.9,
+    "recovery_se": 0.9,
+    "fwer_pct": 14.5,
+    "fwer_se": 1.8,
+    "alias_admit_pct": 4.2,
+    "est_alias_col": 0.0023,
+    "calls_avg": 325.4,
+    "early_stop_pct": 27.8
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 0.6,
+    "recovery_se": 0.3,
+    "fwer_pct": 2.2,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": -0.0246,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 0.0,
+    "recovery_se": 0.0,
+    "fwer_pct": 1.0,
+    "fwer_se": 0.5,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": 0.0009,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k5|interference|homog|1600": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 3.0,
+    "recovery_se": 0.6,
+    "fwer_pct": 3.2,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": 0.0005,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 3.1,
+    "recovery_se": 0.6,
+    "fwer_pct": 2.0,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0577,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 2.1,
+    "recovery_se": 0.5,
+    "fwer_pct": 2.5,
+    "fwer_se": 0.8,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": 0.0011,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 1.6,
+    "recovery_se": 0.4,
+    "fwer_pct": 4.2,
+    "fwer_se": 1.0,
+    "alias_admit_pct": 2.5,
+    "est_alias_col": 0.0022,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 10.6,
+    "recovery_se": 1.1,
+    "fwer_pct": 19.0,
+    "fwer_se": 2.0,
+    "alias_admit_pct": 6.2,
+    "est_alias_col": 0.0106,
+    "calls_avg": 1119.2,
+    "early_stop_pct": 39.5
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 0.9,
+    "recovery_se": 0.3,
+    "fwer_pct": 0.0,
+    "fwer_se": 0.0,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0252,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 0.9,
+    "recovery_se": 0.3,
+    "fwer_pct": 1.2,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": 0.0004,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k5|interference|homog|6400": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 4.4,
+    "recovery_se": 0.7,
+    "fwer_pct": 3.5,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 1.8,
+    "est_alias_col": 0.0011,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 5.5,
+    "recovery_se": 0.8,
+    "fwer_pct": 3.2,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0577,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 5.8,
+    "recovery_se": 0.8,
+    "fwer_pct": 3.2,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 1.5,
+    "est_alias_col": -0.0002,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 1.8,
+    "recovery_se": 0.5,
+    "fwer_pct": 3.5,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": -0.0,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 15.1,
+    "recovery_se": 1.3,
+    "fwer_pct": 24.2,
+    "fwer_se": 2.1,
+    "alias_admit_pct": 8.8,
+    "est_alias_col": 0.0097,
+    "calls_avg": 3758.8,
+    "early_stop_pct": 54.0
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 1.5,
+    "recovery_se": 0.4,
+    "fwer_pct": 1.5,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": -0.0258,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 1.5,
+    "recovery_se": 0.4,
+    "fwer_pct": 1.2,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": 0.0039,
+    "calls_avg": 6393.6,
+    "early_stop_pct": 0.2
+   }
+  },
+  "k5|synergy|homog|400": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 52.1,
+    "recovery_se": 1.8,
+    "fwer_pct": 2.8,
+    "fwer_se": 0.8,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": -0.0017,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 50.6,
+    "recovery_se": 1.8,
+    "fwer_pct": 11.5,
+    "fwer_se": 1.6,
+    "alias_admit_pct": 9.5,
+    "est_alias_col": 0.0459,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 55.5,
+    "recovery_se": 1.8,
+    "fwer_pct": 3.5,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": -0.0025,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 12.0,
+    "recovery_se": 1.1,
+    "fwer_pct": 3.5,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": 0.0005,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 42.4,
+    "recovery_se": 1.7,
+    "fwer_pct": 10.8,
+    "fwer_se": 1.5,
+    "alias_admit_pct": 4.5,
+    "est_alias_col": 0.0164,
+    "calls_avg": 176.7,
+    "early_stop_pct": 90.5
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 2.1,
+    "recovery_se": 0.5,
+    "fwer_pct": 1.5,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 1.2,
+    "est_alias_col": 0.0268,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 2.6,
+    "recovery_se": 0.6,
+    "fwer_pct": 1.2,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": 0.0032,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k5|synergy|homog|1600": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 98.6,
+    "recovery_se": 0.4,
+    "fwer_pct": 3.2,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 1.2,
+    "est_alias_col": 0.003,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 99.4,
+    "recovery_se": 0.3,
+    "fwer_pct": 40.2,
+    "fwer_se": 2.5,
+    "alias_admit_pct": 38.8,
+    "est_alias_col": 0.0492,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 99.4,
+    "recovery_se": 0.3,
+    "fwer_pct": 2.5,
+    "fwer_se": 0.8,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": -0.0004,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 50.4,
+    "recovery_se": 1.8,
+    "fwer_pct": 3.5,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": -0.0022,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 46.2,
+    "recovery_se": 1.8,
+    "fwer_pct": 14.5,
+    "fwer_se": 1.8,
+    "alias_admit_pct": 2.8,
+    "est_alias_col": 0.0067,
+    "calls_avg": 196.1,
+    "early_stop_pct": 100.0
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 15.1,
+    "recovery_se": 1.3,
+    "fwer_pct": 2.8,
+    "fwer_se": 0.8,
+    "alias_admit_pct": 1.8,
+    "est_alias_col": 0.0208,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 15.0,
+    "recovery_se": 1.3,
+    "fwer_pct": 1.2,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k5|synergy|homog|6400": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 100.0,
+    "recovery_se": 0.0,
+    "fwer_pct": 3.0,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 1.0,
+    "est_alias_col": 0.0,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 100.0,
+    "recovery_se": 0.0,
+    "fwer_pct": 95.8,
+    "fwer_se": 1.0,
+    "alias_admit_pct": 95.0,
+    "est_alias_col": 0.0475,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 100.0,
+    "recovery_se": 0.0,
+    "fwer_pct": 1.2,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0011,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 99.6,
+    "recovery_se": 0.2,
+    "fwer_pct": 3.0,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": -0.0006,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 45.9,
+    "recovery_se": 1.8,
+    "fwer_pct": 12.5,
+    "fwer_se": 1.7,
+    "alias_admit_pct": 4.5,
+    "est_alias_col": 0.0115,
+    "calls_avg": 210.6,
+    "early_stop_pct": 100.0
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 86.2,
+    "recovery_se": 1.2,
+    "fwer_pct": 3.0,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 3.0,
+    "est_alias_col": 0.0125,
+    "calls_avg": 6392.0,
+    "early_stop_pct": 0.5
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 84.8,
+    "recovery_se": 1.3,
+    "fwer_pct": 1.5,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": -0.0005,
+    "calls_avg": 6399.2,
+    "early_stop_pct": 0.2
+   }
+  },
+  "k5|null|hetero|400": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 0.6,
+    "recovery_se": 0.3,
+    "fwer_pct": 2.2,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 1.0,
+    "est_alias_col": -0.0026,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 0.8,
+    "recovery_se": 0.3,
+    "fwer_pct": 3.0,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 1.0,
+    "est_alias_col": 0.005,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 1.0,
+    "recovery_se": 0.4,
+    "fwer_pct": 2.8,
+    "fwer_se": 0.8,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": -0.0022,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 1.1,
+    "recovery_se": 0.4,
+    "fwer_pct": 4.2,
+    "fwer_se": 1.0,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": 0.0021,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 5.2,
+    "recovery_se": 0.8,
+    "fwer_pct": 12.0,
+    "fwer_se": 1.6,
+    "alias_admit_pct": 5.2,
+    "est_alias_col": 0.0106,
+    "calls_avg": 344.8,
+    "early_stop_pct": 22.0
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 0.0,
+    "recovery_se": 0.0,
+    "fwer_pct": 2.0,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": -0.0028,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 0.5,
+    "recovery_se": 0.2,
+    "fwer_pct": 0.8,
+    "fwer_se": 0.4,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0007,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k5|null|hetero|1600": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 0.9,
+    "recovery_se": 0.3,
+    "fwer_pct": 3.2,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 1.0,
+    "est_alias_col": 0.0011,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 1.4,
+    "recovery_se": 0.4,
+    "fwer_pct": 1.5,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": -0.0002,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 1.2,
+    "recovery_se": 0.4,
+    "fwer_pct": 3.2,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 1.2,
+    "est_alias_col": -0.0007,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 1.0,
+    "recovery_se": 0.4,
+    "fwer_pct": 3.2,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 1.2,
+    "est_alias_col": 0.0012,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 6.9,
+    "recovery_se": 0.9,
+    "fwer_pct": 22.8,
+    "fwer_se": 2.1,
+    "alias_admit_pct": 8.8,
+    "est_alias_col": 0.0196,
+    "calls_avg": 1163.6,
+    "early_stop_pct": 36.2
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 0.2,
+    "recovery_se": 0.2,
+    "fwer_pct": 1.2,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": -0.0005,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 0.0,
+    "recovery_se": 0.0,
+    "fwer_pct": 1.5,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": -0.0031,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k5|null|hetero|6400": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 1.0,
+    "recovery_se": 0.4,
+    "fwer_pct": 4.8,
+    "fwer_se": 1.1,
+    "alias_admit_pct": 1.2,
+    "est_alias_col": 0.0003,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 1.1,
+    "recovery_se": 0.4,
+    "fwer_pct": 4.0,
+    "fwer_se": 1.0,
+    "alias_admit_pct": 1.0,
+    "est_alias_col": 0.0003,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 0.9,
+    "recovery_se": 0.3,
+    "fwer_pct": 3.8,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 1.0,
+    "est_alias_col": 0.0001,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 0.6,
+    "recovery_se": 0.3,
+    "fwer_pct": 4.2,
+    "fwer_se": 1.0,
+    "alias_admit_pct": 2.2,
+    "est_alias_col": -0.0002,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 8.6,
+    "recovery_se": 1.0,
+    "fwer_pct": 29.0,
+    "fwer_se": 2.3,
+    "alias_admit_pct": 8.2,
+    "est_alias_col": 0.0098,
+    "calls_avg": 3966.3,
+    "early_stop_pct": 46.0
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 0.4,
+    "recovery_se": 0.2,
+    "fwer_pct": 3.0,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 1.2,
+    "est_alias_col": 0.004,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 1.0,
+    "recovery_se": 0.4,
+    "fwer_pct": 2.8,
+    "fwer_se": 0.8,
+    "alias_admit_pct": 1.0,
+    "est_alias_col": 0.0035,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k5|main|hetero|400": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 13.1,
+    "recovery_se": 1.2,
+    "fwer_pct": 3.5,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 1.5,
+    "est_alias_col": 0.0015,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 15.8,
+    "recovery_se": 1.3,
+    "fwer_pct": 1.8,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": -0.0044,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 14.9,
+    "recovery_se": 1.3,
+    "fwer_pct": 3.2,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": -0.0023,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 5.9,
+    "recovery_se": 0.8,
+    "fwer_pct": 2.8,
+    "fwer_se": 0.8,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": -0.0035,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 20.1,
+    "recovery_se": 1.4,
+    "fwer_pct": 11.0,
+    "fwer_se": 1.6,
+    "alias_admit_pct": 3.8,
+    "est_alias_col": 0.0071,
+    "calls_avg": 282.3,
+    "early_stop_pct": 51.0
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 0.9,
+    "recovery_se": 0.3,
+    "fwer_pct": 1.8,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": -0.0045,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 1.4,
+    "recovery_se": 0.4,
+    "fwer_pct": 1.0,
+    "fwer_se": 0.5,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": 0.0012,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k5|main|hetero|1600": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 57.0,
+    "recovery_se": 1.8,
+    "fwer_pct": 3.5,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 1.5,
+    "est_alias_col": 0.0017,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 59.4,
+    "recovery_se": 1.7,
+    "fwer_pct": 1.2,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": -0.0048,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 60.5,
+    "recovery_se": 1.7,
+    "fwer_pct": 3.5,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 1.0,
+    "est_alias_col": -0.0004,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 15.2,
+    "recovery_se": 1.3,
+    "fwer_pct": 2.2,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": 0.0003,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 40.2,
+    "recovery_se": 1.7,
+    "fwer_pct": 18.8,
+    "fwer_se": 2.0,
+    "alias_admit_pct": 7.2,
+    "est_alias_col": 0.0199,
+    "calls_avg": 491.1,
+    "early_stop_pct": 95.8
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 2.8,
+    "recovery_se": 0.6,
+    "fwer_pct": 1.0,
+    "fwer_se": 0.5,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": -0.0031,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 3.5,
+    "recovery_se": 0.6,
+    "fwer_pct": 1.0,
+    "fwer_se": 0.5,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": 0.0009,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k5|main|hetero|6400": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 99.2,
+    "recovery_se": 0.3,
+    "fwer_pct": 2.8,
+    "fwer_se": 0.8,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": -0.0007,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 99.8,
+    "recovery_se": 0.2,
+    "fwer_pct": 2.0,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": -0.0046,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 99.9,
+    "recovery_se": 0.1,
+    "fwer_pct": 2.5,
+    "fwer_se": 0.8,
+    "alias_admit_pct": 1.2,
+    "est_alias_col": 0.0007,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 63.7,
+    "recovery_se": 1.7,
+    "fwer_pct": 2.0,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": 0.0004,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 43.4,
+    "recovery_se": 1.8,
+    "fwer_pct": 16.2,
+    "fwer_se": 1.8,
+    "alias_admit_pct": 5.2,
+    "est_alias_col": 0.0094,
+    "calls_avg": 601.0,
+    "early_stop_pct": 100.0
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 19.6,
+    "recovery_se": 1.4,
+    "fwer_pct": 2.2,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 1.0,
+    "est_alias_col": 0.0022,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 22.4,
+    "recovery_se": 1.5,
+    "fwer_pct": 1.2,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": 0.0031,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k5|interference|hetero|400": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 1.8,
+    "recovery_se": 0.5,
+    "fwer_pct": 3.2,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 1.0,
+    "est_alias_col": 0.0017,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 1.8,
+    "recovery_se": 0.5,
+    "fwer_pct": 3.0,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0589,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 1.9,
+    "recovery_se": 0.5,
+    "fwer_pct": 4.2,
+    "fwer_se": 1.0,
+    "alias_admit_pct": 1.8,
+    "est_alias_col": 0.0044,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 0.6,
+    "recovery_se": 0.3,
+    "fwer_pct": 2.5,
+    "fwer_se": 0.8,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": -0.0048,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 5.5,
+    "recovery_se": 0.8,
+    "fwer_pct": 12.5,
+    "fwer_se": 1.7,
+    "alias_admit_pct": 5.2,
+    "est_alias_col": 0.0108,
+    "calls_avg": 341.9,
+    "early_stop_pct": 23.5
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 0.4,
+    "recovery_se": 0.2,
+    "fwer_pct": 1.5,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": -0.026,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 0.6,
+    "recovery_se": 0.3,
+    "fwer_pct": 1.0,
+    "fwer_se": 0.5,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": 0.0014,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k5|interference|hetero|1600": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 1.4,
+    "recovery_se": 0.4,
+    "fwer_pct": 4.0,
+    "fwer_se": 1.0,
+    "alias_admit_pct": 1.0,
+    "est_alias_col": -0.0,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 2.2,
+    "recovery_se": 0.5,
+    "fwer_pct": 2.5,
+    "fwer_se": 0.8,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0597,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 3.0,
+    "recovery_se": 0.6,
+    "fwer_pct": 3.5,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": 0.0,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 1.9,
+    "recovery_se": 0.5,
+    "fwer_pct": 2.8,
+    "fwer_se": 0.8,
+    "alias_admit_pct": 1.0,
+    "est_alias_col": -0.0004,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 10.5,
+    "recovery_se": 1.1,
+    "fwer_pct": 18.8,
+    "fwer_se": 2.0,
+    "alias_admit_pct": 5.0,
+    "est_alias_col": 0.0035,
+    "calls_avg": 1142.8,
+    "early_stop_pct": 39.5
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 1.0,
+    "recovery_se": 0.4,
+    "fwer_pct": 1.2,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0304,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 0.8,
+    "recovery_se": 0.3,
+    "fwer_pct": 0.5,
+    "fwer_se": 0.4,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": 0.0013,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k5|interference|hetero|6400": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 7.2,
+    "recovery_se": 0.9,
+    "fwer_pct": 2.0,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": -0.0011,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 6.6,
+    "recovery_se": 0.9,
+    "fwer_pct": 3.0,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0583,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 5.8,
+    "recovery_se": 0.8,
+    "fwer_pct": 3.8,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 1.5,
+    "est_alias_col": 0.0001,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 3.6,
+    "recovery_se": 0.7,
+    "fwer_pct": 3.8,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": -0.0008,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 15.8,
+    "recovery_se": 1.3,
+    "fwer_pct": 29.5,
+    "fwer_se": 2.3,
+    "alias_admit_pct": 11.2,
+    "est_alias_col": 0.0155,
+    "calls_avg": 3430.7,
+    "early_stop_pct": 59.8
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 2.1,
+    "recovery_se": 0.5,
+    "fwer_pct": 1.0,
+    "fwer_se": 0.5,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0303,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 1.2,
+    "recovery_se": 0.4,
+    "fwer_pct": 1.5,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": -0.0007,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k5|synergy|hetero|400": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 53.0,
+    "recovery_se": 1.8,
+    "fwer_pct": 2.0,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": 0.0019,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 52.0,
+    "recovery_se": 1.8,
+    "fwer_pct": 10.5,
+    "fwer_se": 1.5,
+    "alias_admit_pct": 8.8,
+    "est_alias_col": 0.0413,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 50.5,
+    "recovery_se": 1.8,
+    "fwer_pct": 3.0,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 1.0,
+    "est_alias_col": 0.0,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 14.9,
+    "recovery_se": 1.3,
+    "fwer_pct": 4.2,
+    "fwer_se": 1.0,
+    "alias_admit_pct": 1.5,
+    "est_alias_col": 0.0049,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 41.2,
+    "recovery_se": 1.7,
+    "fwer_pct": 10.8,
+    "fwer_se": 1.5,
+    "alias_admit_pct": 3.8,
+    "est_alias_col": 0.0135,
+    "calls_avg": 193.3,
+    "early_stop_pct": 87.8
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 2.6,
+    "recovery_se": 0.6,
+    "fwer_pct": 1.2,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 1.0,
+    "est_alias_col": 0.0266,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 3.4,
+    "recovery_se": 0.6,
+    "fwer_pct": 0.5,
+    "fwer_se": 0.4,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0006,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k5|synergy|hetero|1600": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 98.9,
+    "recovery_se": 0.4,
+    "fwer_pct": 2.0,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": 0.0001,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 99.2,
+    "recovery_se": 0.3,
+    "fwer_pct": 35.8,
+    "fwer_se": 2.4,
+    "alias_admit_pct": 35.8,
+    "est_alias_col": 0.0488,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 99.6,
+    "recovery_se": 0.2,
+    "fwer_pct": 3.5,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": 0.001,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 55.2,
+    "recovery_se": 1.8,
+    "fwer_pct": 2.0,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": 0.0001,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 47.4,
+    "recovery_se": 1.8,
+    "fwer_pct": 12.5,
+    "fwer_se": 1.7,
+    "alias_admit_pct": 5.0,
+    "est_alias_col": 0.0094,
+    "calls_avg": 187.7,
+    "early_stop_pct": 100.0
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 18.1,
+    "recovery_se": 1.4,
+    "fwer_pct": 1.5,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": 0.0185,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 16.0,
+    "recovery_se": 1.3,
+    "fwer_pct": 0.8,
+    "fwer_se": 0.4,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": -0.0009,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k5|synergy|hetero|6400": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 100.0,
+    "recovery_se": 0.0,
+    "fwer_pct": 2.5,
+    "fwer_se": 0.8,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": 0.0001,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 100.0,
+    "recovery_se": 0.0,
+    "fwer_pct": 94.5,
+    "fwer_se": 1.1,
+    "alias_admit_pct": 94.5,
+    "est_alias_col": 0.0467,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 100.0,
+    "recovery_se": 0.0,
+    "fwer_pct": 3.0,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 1.5,
+    "est_alias_col": -0.0002,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 99.2,
+    "recovery_se": 0.3,
+    "fwer_pct": 2.8,
+    "fwer_se": 0.8,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": -0.0004,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 48.4,
+    "recovery_se": 1.8,
+    "fwer_pct": 11.8,
+    "fwer_se": 1.6,
+    "alias_admit_pct": 3.0,
+    "est_alias_col": 0.005,
+    "calls_avg": 203.8,
+    "early_stop_pct": 100.0
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 92.5,
+    "recovery_se": 0.9,
+    "fwer_pct": 4.2,
+    "fwer_se": 1.0,
+    "alias_admit_pct": 3.8,
+    "est_alias_col": 0.0147,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 94.1,
+    "recovery_se": 0.8,
+    "fwer_pct": 0.8,
+    "fwer_se": 0.4,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": -0.0003,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k10|null|homog|400": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 0.4,
+    "recovery_se": 0.2,
+    "fwer_pct": 5.2,
+    "fwer_se": 1.1,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": -0.003,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 0.4,
+    "recovery_se": 0.2,
+    "fwer_pct": 5.0,
+    "fwer_se": 1.1,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0015,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 0.2,
+    "recovery_se": 0.2,
+    "fwer_pct": 4.2,
+    "fwer_se": 1.0,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": -0.0002,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 0.6,
+    "recovery_se": 0.3,
+    "fwer_pct": 3.0,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": -0.0,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 4.0,
+    "recovery_se": 0.7,
+    "fwer_pct": 22.2,
+    "fwer_se": 2.1,
+    "alias_admit_pct": 2.5,
+    "est_alias_col": 0.0013,
+    "calls_avg": 322.4,
+    "early_stop_pct": 30.0
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 0.1,
+    "recovery_se": 0.1,
+    "fwer_pct": 1.2,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": 0.0012,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 0.1,
+    "recovery_se": 0.1,
+    "fwer_pct": 1.0,
+    "fwer_se": 0.5,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0046,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k10|null|homog|1600": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 0.4,
+    "recovery_se": 0.2,
+    "fwer_pct": 4.2,
+    "fwer_se": 1.0,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": 0.0003,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 0.5,
+    "recovery_se": 0.2,
+    "fwer_pct": 3.2,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": -0.0017,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 0.6,
+    "recovery_se": 0.3,
+    "fwer_pct": 4.5,
+    "fwer_se": 1.0,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": -0.0012,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 1.0,
+    "recovery_se": 0.4,
+    "fwer_pct": 3.5,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": 0.0001,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 4.1,
+    "recovery_se": 0.7,
+    "fwer_pct": 32.5,
+    "fwer_se": 2.3,
+    "alias_admit_pct": 5.8,
+    "est_alias_col": 0.0147,
+    "calls_avg": 1107.0,
+    "early_stop_pct": 40.5
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 0.0,
+    "recovery_se": 0.0,
+    "fwer_pct": 1.5,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0014,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 0.1,
+    "recovery_se": 0.1,
+    "fwer_pct": 2.2,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0012,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k10|null|homog|6400": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 0.6,
+    "recovery_se": 0.3,
+    "fwer_pct": 2.0,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": 0.0005,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 0.8,
+    "recovery_se": 0.3,
+    "fwer_pct": 4.8,
+    "fwer_se": 1.1,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": -0.0001,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 0.2,
+    "recovery_se": 0.2,
+    "fwer_pct": 3.5,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": 0.0002,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 0.8,
+    "recovery_se": 0.3,
+    "fwer_pct": 2.5,
+    "fwer_se": 0.8,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": 0.0002,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 4.9,
+    "recovery_se": 0.8,
+    "fwer_pct": 40.0,
+    "fwer_se": 2.4,
+    "alias_admit_pct": 5.2,
+    "est_alias_col": 0.0094,
+    "calls_avg": 3815.1,
+    "early_stop_pct": 49.5
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 0.2,
+    "recovery_se": 0.2,
+    "fwer_pct": 2.8,
+    "fwer_se": 0.8,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": 0.0012,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 0.2,
+    "recovery_se": 0.2,
+    "fwer_pct": 1.2,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": 0.0047,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k10|main|homog|400": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 9.1,
+    "recovery_se": 1.0,
+    "fwer_pct": 3.8,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": 0.0015,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 8.9,
+    "recovery_se": 1.0,
+    "fwer_pct": 2.0,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": -0.0043,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 10.9,
+    "recovery_se": 1.1,
+    "fwer_pct": 5.2,
+    "fwer_se": 1.1,
+    "alias_admit_pct": 1.2,
+    "est_alias_col": -0.0015,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 1.6,
+    "recovery_se": 0.4,
+    "fwer_pct": 4.8,
+    "fwer_se": 1.1,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": -0.0007,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 16.2,
+    "recovery_se": 1.3,
+    "fwer_pct": 18.0,
+    "fwer_se": 1.9,
+    "alias_admit_pct": 2.2,
+    "est_alias_col": 0.0004,
+    "calls_avg": 284.6,
+    "early_stop_pct": 49.2
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 1.0,
+    "recovery_se": 0.4,
+    "fwer_pct": 1.8,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": 0.0029,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 0.8,
+    "recovery_se": 0.3,
+    "fwer_pct": 2.8,
+    "fwer_se": 0.8,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": -0.0028,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k10|main|homog|1600": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 45.8,
+    "recovery_se": 1.8,
+    "fwer_pct": 4.2,
+    "fwer_se": 1.0,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": -0.0004,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 46.4,
+    "recovery_se": 1.8,
+    "fwer_pct": 3.8,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": -0.0035,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 48.4,
+    "recovery_se": 1.8,
+    "fwer_pct": 3.5,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": -0.0009,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 10.2,
+    "recovery_se": 1.1,
+    "fwer_pct": 5.8,
+    "fwer_se": 1.2,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": 0.0004,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 34.2,
+    "recovery_se": 1.7,
+    "fwer_pct": 22.8,
+    "fwer_se": 2.1,
+    "alias_admit_pct": 3.2,
+    "est_alias_col": 0.0045,
+    "calls_avg": 642.6,
+    "early_stop_pct": 90.5
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 2.2,
+    "recovery_se": 0.5,
+    "fwer_pct": 2.2,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 1.0,
+    "est_alias_col": 0.0018,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 1.2,
+    "recovery_se": 0.4,
+    "fwer_pct": 1.5,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": 0.0016,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k10|main|homog|6400": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 99.5,
+    "recovery_se": 0.2,
+    "fwer_pct": 4.8,
+    "fwer_se": 1.1,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": 0.0004,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 99.1,
+    "recovery_se": 0.3,
+    "fwer_pct": 2.8,
+    "fwer_se": 0.8,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": -0.0055,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 99.4,
+    "recovery_se": 0.3,
+    "fwer_pct": 4.0,
+    "fwer_se": 1.0,
+    "alias_admit_pct": 1.0,
+    "est_alias_col": 0.0003,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 46.5,
+    "recovery_se": 1.8,
+    "fwer_pct": 3.2,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": 0.0001,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 40.0,
+    "recovery_se": 1.7,
+    "fwer_pct": 24.5,
+    "fwer_se": 2.2,
+    "alias_admit_pct": 3.5,
+    "est_alias_col": 0.0044,
+    "calls_avg": 642.3,
+    "early_stop_pct": 100.0
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 11.2,
+    "recovery_se": 1.1,
+    "fwer_pct": 1.0,
+    "fwer_se": 0.5,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": 0.0002,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 12.6,
+    "recovery_se": 1.2,
+    "fwer_pct": 2.5,
+    "fwer_se": 0.8,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": 0.003,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k10|interference|homog|400": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 1.2,
+    "recovery_se": 0.4,
+    "fwer_pct": 4.8,
+    "fwer_se": 1.1,
+    "alias_admit_pct": 1.2,
+    "est_alias_col": 0.0004,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 0.8,
+    "recovery_se": 0.3,
+    "fwer_pct": 5.2,
+    "fwer_se": 1.1,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0514,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 0.9,
+    "recovery_se": 0.3,
+    "fwer_pct": 4.8,
+    "fwer_se": 1.1,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": -0.0048,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 1.0,
+    "recovery_se": 0.4,
+    "fwer_pct": 4.5,
+    "fwer_se": 1.0,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": -0.0025,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 4.5,
+    "recovery_se": 0.7,
+    "fwer_pct": 18.2,
+    "fwer_se": 1.9,
+    "alias_admit_pct": 2.2,
+    "est_alias_col": 0.0007,
+    "calls_avg": 332.2,
+    "early_stop_pct": 27.0
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 0.1,
+    "recovery_se": 0.1,
+    "fwer_pct": 0.8,
+    "fwer_se": 0.4,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0292,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 0.1,
+    "recovery_se": 0.1,
+    "fwer_pct": 1.2,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0006,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k10|interference|homog|1600": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 1.6,
+    "recovery_se": 0.4,
+    "fwer_pct": 3.5,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": -0.0018,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 1.5,
+    "recovery_se": 0.4,
+    "fwer_pct": 3.2,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0591,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 0.9,
+    "recovery_se": 0.3,
+    "fwer_pct": 3.8,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": 0.0009,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 0.8,
+    "recovery_se": 0.3,
+    "fwer_pct": 4.2,
+    "fwer_se": 1.0,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": -0.0002,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 6.0,
+    "recovery_se": 0.8,
+    "fwer_pct": 31.5,
+    "fwer_se": 2.3,
+    "alias_admit_pct": 3.5,
+    "est_alias_col": 0.0088,
+    "calls_avg": 1074.1,
+    "early_stop_pct": 43.2
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 0.6,
+    "recovery_se": 0.3,
+    "fwer_pct": 1.2,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": -0.0251,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 0.2,
+    "recovery_se": 0.2,
+    "fwer_pct": 1.5,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0007,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k10|interference|homog|6400": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 4.6,
+    "recovery_se": 0.7,
+    "fwer_pct": 4.2,
+    "fwer_se": 1.0,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": 0.0005,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 3.6,
+    "recovery_se": 0.7,
+    "fwer_pct": 2.8,
+    "fwer_se": 0.8,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0578,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 2.6,
+    "recovery_se": 0.6,
+    "fwer_pct": 4.2,
+    "fwer_se": 1.0,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": -0.0001,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 1.2,
+    "recovery_se": 0.4,
+    "fwer_pct": 2.5,
+    "fwer_se": 0.8,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0003,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 10.8,
+    "recovery_se": 1.1,
+    "fwer_pct": 35.8,
+    "fwer_se": 2.4,
+    "alias_admit_pct": 3.0,
+    "est_alias_col": 0.0002,
+    "calls_avg": 3587.8,
+    "early_stop_pct": 57.0
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 0.9,
+    "recovery_se": 0.3,
+    "fwer_pct": 0.8,
+    "fwer_se": 0.4,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0291,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 1.6,
+    "recovery_se": 0.4,
+    "fwer_pct": 2.2,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": 0.0021,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k10|synergy|homog|400": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 38.5,
+    "recovery_se": 1.7,
+    "fwer_pct": 3.8,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": 0.0005,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 38.1,
+    "recovery_se": 1.7,
+    "fwer_pct": 9.8,
+    "fwer_se": 1.5,
+    "alias_admit_pct": 6.8,
+    "est_alias_col": 0.0514,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 42.1,
+    "recovery_se": 1.7,
+    "fwer_pct": 4.5,
+    "fwer_se": 1.0,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": 0.0014,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 9.4,
+    "recovery_se": 1.0,
+    "fwer_pct": 3.8,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": 0.0012,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 32.2,
+    "recovery_se": 1.7,
+    "fwer_pct": 17.2,
+    "fwer_se": 1.9,
+    "alias_admit_pct": 3.2,
+    "est_alias_col": 0.0039,
+    "calls_avg": 225.0,
+    "early_stop_pct": 77.8
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 1.1,
+    "recovery_se": 0.4,
+    "fwer_pct": 1.8,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": 0.0231,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 1.1,
+    "recovery_se": 0.4,
+    "fwer_pct": 1.5,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": 0.0025,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k10|synergy|homog|1600": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 99.5,
+    "recovery_se": 0.2,
+    "fwer_pct": 3.2,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": 0.0,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 98.2,
+    "recovery_se": 0.5,
+    "fwer_pct": 30.5,
+    "fwer_se": 2.3,
+    "alias_admit_pct": 28.2,
+    "est_alias_col": 0.0484,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 98.4,
+    "recovery_se": 0.4,
+    "fwer_pct": 2.2,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": 0.0012,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 39.2,
+    "recovery_se": 1.7,
+    "fwer_pct": 4.8,
+    "fwer_se": 1.1,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": -0.0001,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 44.4,
+    "recovery_se": 1.8,
+    "fwer_pct": 17.2,
+    "fwer_se": 1.9,
+    "alias_admit_pct": 2.2,
+    "est_alias_col": 0.0082,
+    "calls_avg": 252.7,
+    "early_stop_pct": 100.0
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 10.0,
+    "recovery_se": 1.1,
+    "fwer_pct": 1.5,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 1.0,
+    "est_alias_col": 0.0223,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 8.9,
+    "recovery_se": 1.0,
+    "fwer_pct": 2.0,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": 0.0011,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k10|synergy|homog|6400": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 100.0,
+    "recovery_se": 0.0,
+    "fwer_pct": 3.8,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": 0.0003,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 100.0,
+    "recovery_se": 0.0,
+    "fwer_pct": 91.0,
+    "fwer_se": 1.4,
+    "alias_admit_pct": 90.8,
+    "est_alias_col": 0.048,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 100.0,
+    "recovery_se": 0.0,
+    "fwer_pct": 3.8,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": -0.0005,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 97.6,
+    "recovery_se": 0.5,
+    "fwer_pct": 2.5,
+    "fwer_se": 0.8,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": 0.0007,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 43.8,
+    "recovery_se": 1.8,
+    "fwer_pct": 16.2,
+    "fwer_se": 1.8,
+    "alias_admit_pct": 2.8,
+    "est_alias_col": 0.0164,
+    "calls_avg": 243.3,
+    "early_stop_pct": 100.0
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 82.1,
+    "recovery_se": 1.4,
+    "fwer_pct": 2.8,
+    "fwer_se": 0.8,
+    "alias_admit_pct": 1.0,
+    "est_alias_col": 0.0112,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 82.9,
+    "recovery_se": 1.3,
+    "fwer_pct": 1.5,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": 0.0025,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k10|null|hetero|400": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 0.5,
+    "recovery_se": 0.2,
+    "fwer_pct": 3.5,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": 0.0036,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 1.4,
+    "recovery_se": 0.4,
+    "fwer_pct": 5.0,
+    "fwer_se": 1.1,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": -0.0027,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 0.2,
+    "recovery_se": 0.2,
+    "fwer_pct": 3.8,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 1.0,
+    "est_alias_col": 0.0003,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 1.0,
+    "recovery_se": 0.4,
+    "fwer_pct": 4.2,
+    "fwer_se": 1.0,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": 0.0006,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 2.8,
+    "recovery_se": 0.6,
+    "fwer_pct": 23.2,
+    "fwer_se": 2.1,
+    "alias_admit_pct": 3.5,
+    "est_alias_col": 0.0058,
+    "calls_avg": 327.7,
+    "early_stop_pct": 28.8
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 0.1,
+    "recovery_se": 0.1,
+    "fwer_pct": 1.2,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": 0.0057,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 0.1,
+    "recovery_se": 0.1,
+    "fwer_pct": 0.8,
+    "fwer_se": 0.4,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0046,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k10|null|hetero|1600": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 1.2,
+    "recovery_se": 0.4,
+    "fwer_pct": 2.2,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": 0.0003,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 0.4,
+    "recovery_se": 0.2,
+    "fwer_pct": 4.8,
+    "fwer_se": 1.1,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": 0.0013,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 0.5,
+    "recovery_se": 0.2,
+    "fwer_pct": 4.0,
+    "fwer_se": 1.0,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": -0.0007,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 0.6,
+    "recovery_se": 0.3,
+    "fwer_pct": 5.2,
+    "fwer_se": 1.1,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": -0.0007,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 4.1,
+    "recovery_se": 0.7,
+    "fwer_pct": 28.2,
+    "fwer_se": 2.3,
+    "alias_admit_pct": 4.0,
+    "est_alias_col": 0.0052,
+    "calls_avg": 1144.4,
+    "early_stop_pct": 35.8
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 0.6,
+    "recovery_se": 0.3,
+    "fwer_pct": 1.0,
+    "fwer_se": 0.5,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": 0.0005,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 0.1,
+    "recovery_se": 0.1,
+    "fwer_pct": 1.0,
+    "fwer_se": 0.5,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0026,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k10|null|hetero|6400": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 0.5,
+    "recovery_se": 0.2,
+    "fwer_pct": 2.0,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": 0.0003,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 0.5,
+    "recovery_se": 0.2,
+    "fwer_pct": 5.0,
+    "fwer_se": 1.1,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": 0.0007,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 0.6,
+    "recovery_se": 0.3,
+    "fwer_pct": 6.8,
+    "fwer_se": 1.3,
+    "alias_admit_pct": 1.0,
+    "est_alias_col": 0.0003,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 0.2,
+    "recovery_se": 0.2,
+    "fwer_pct": 3.5,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": -0.0007,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 6.8,
+    "recovery_se": 0.9,
+    "fwer_pct": 41.8,
+    "fwer_se": 2.5,
+    "alias_admit_pct": 4.8,
+    "est_alias_col": 0.0119,
+    "calls_avg": 3452.4,
+    "early_stop_pct": 55.2
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 0.0,
+    "recovery_se": 0.0,
+    "fwer_pct": 3.5,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": 0.0023,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 0.5,
+    "recovery_se": 0.2,
+    "fwer_pct": 2.0,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": 0.0025,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k10|main|hetero|400": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 9.0,
+    "recovery_se": 1.0,
+    "fwer_pct": 5.5,
+    "fwer_se": 1.1,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": -0.0031,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 9.2,
+    "recovery_se": 1.0,
+    "fwer_pct": 4.0,
+    "fwer_se": 1.0,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": -0.0097,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 9.8,
+    "recovery_se": 1.0,
+    "fwer_pct": 6.0,
+    "fwer_se": 1.2,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": -0.0019,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 4.1,
+    "recovery_se": 0.7,
+    "fwer_pct": 4.0,
+    "fwer_se": 1.0,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": -0.0013,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 15.6,
+    "recovery_se": 1.3,
+    "fwer_pct": 18.5,
+    "fwer_se": 1.9,
+    "alias_admit_pct": 1.5,
+    "est_alias_col": 0.0111,
+    "calls_avg": 279.3,
+    "early_stop_pct": 49.2
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 0.4,
+    "recovery_se": 0.2,
+    "fwer_pct": 2.0,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": -0.0072,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 0.5,
+    "recovery_se": 0.2,
+    "fwer_pct": 1.0,
+    "fwer_se": 0.5,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0006,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k10|main|hetero|1600": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 46.1,
+    "recovery_se": 1.8,
+    "fwer_pct": 2.8,
+    "fwer_se": 0.8,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": -0.0007,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 46.2,
+    "recovery_se": 1.8,
+    "fwer_pct": 3.5,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0057,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 45.9,
+    "recovery_se": 1.8,
+    "fwer_pct": 3.2,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": -0.0018,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 11.2,
+    "recovery_se": 1.1,
+    "fwer_pct": 3.8,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": 0.0012,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 32.9,
+    "recovery_se": 1.7,
+    "fwer_pct": 26.2,
+    "fwer_se": 2.2,
+    "alias_admit_pct": 2.2,
+    "est_alias_col": 0.0076,
+    "calls_avg": 609.5,
+    "early_stop_pct": 90.5
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 1.6,
+    "recovery_se": 0.4,
+    "fwer_pct": 1.8,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": -0.0015,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 2.2,
+    "recovery_se": 0.5,
+    "fwer_pct": 1.2,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": 0.0014,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k10|main|hetero|6400": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 99.4,
+    "recovery_se": 0.3,
+    "fwer_pct": 4.8,
+    "fwer_se": 1.1,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": -0.0001,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 99.0,
+    "recovery_se": 0.4,
+    "fwer_pct": 3.0,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0053,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 99.1,
+    "recovery_se": 0.3,
+    "fwer_pct": 4.5,
+    "fwer_se": 1.0,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": 0.0007,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 51.9,
+    "recovery_se": 1.8,
+    "fwer_pct": 3.0,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": 0.0001,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 38.9,
+    "recovery_se": 1.7,
+    "fwer_pct": 25.0,
+    "fwer_se": 2.2,
+    "alias_admit_pct": 3.5,
+    "est_alias_col": 0.0012,
+    "calls_avg": 666.6,
+    "early_stop_pct": 100.0
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 16.1,
+    "recovery_se": 1.3,
+    "fwer_pct": 1.5,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": -0.0012,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 14.6,
+    "recovery_se": 1.2,
+    "fwer_pct": 2.2,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": -0.0001,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k10|interference|hetero|400": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 0.4,
+    "recovery_se": 0.2,
+    "fwer_pct": 3.2,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": 0.0017,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 0.6,
+    "recovery_se": 0.3,
+    "fwer_pct": 4.0,
+    "fwer_se": 1.0,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0613,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 0.6,
+    "recovery_se": 0.3,
+    "fwer_pct": 4.8,
+    "fwer_se": 1.1,
+    "alias_admit_pct": 1.0,
+    "est_alias_col": 0.0019,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 0.6,
+    "recovery_se": 0.3,
+    "fwer_pct": 5.0,
+    "fwer_se": 1.1,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": 0.0019,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 3.6,
+    "recovery_se": 0.7,
+    "fwer_pct": 22.0,
+    "fwer_se": 2.1,
+    "alias_admit_pct": 3.2,
+    "est_alias_col": 0.0022,
+    "calls_avg": 323.4,
+    "early_stop_pct": 29.2
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 0.0,
+    "recovery_se": 0.0,
+    "fwer_pct": 0.5,
+    "fwer_se": 0.4,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0309,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 0.0,
+    "recovery_se": 0.0,
+    "fwer_pct": 0.8,
+    "fwer_se": 0.4,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.004,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k10|interference|hetero|1600": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 1.4,
+    "recovery_se": 0.4,
+    "fwer_pct": 4.2,
+    "fwer_se": 1.0,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": 0.0019,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 1.6,
+    "recovery_se": 0.4,
+    "fwer_pct": 4.2,
+    "fwer_se": 1.0,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0587,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 1.0,
+    "recovery_se": 0.4,
+    "fwer_pct": 5.2,
+    "fwer_se": 1.1,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": -0.0017,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 0.4,
+    "recovery_se": 0.2,
+    "fwer_pct": 4.0,
+    "fwer_se": 1.0,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.001,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 6.0,
+    "recovery_se": 0.8,
+    "fwer_pct": 28.2,
+    "fwer_se": 2.3,
+    "alias_admit_pct": 5.2,
+    "est_alias_col": 0.0034,
+    "calls_avg": 1140.6,
+    "early_stop_pct": 40.0
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 0.2,
+    "recovery_se": 0.2,
+    "fwer_pct": 1.5,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0316,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 0.2,
+    "recovery_se": 0.2,
+    "fwer_pct": 2.0,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": 0.0022,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k10|interference|hetero|6400": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 3.9,
+    "recovery_se": 0.7,
+    "fwer_pct": 4.8,
+    "fwer_se": 1.1,
+    "alias_admit_pct": 1.2,
+    "est_alias_col": 0.0001,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 3.6,
+    "recovery_se": 0.7,
+    "fwer_pct": 3.5,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0582,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 2.5,
+    "recovery_se": 0.6,
+    "fwer_pct": 5.0,
+    "fwer_se": 1.1,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": 0.0004,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 1.5,
+    "recovery_se": 0.4,
+    "fwer_pct": 2.8,
+    "fwer_se": 0.8,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": -0.0007,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 8.4,
+    "recovery_se": 1.0,
+    "fwer_pct": 41.0,
+    "fwer_se": 2.5,
+    "alias_admit_pct": 4.0,
+    "est_alias_col": 0.003,
+    "calls_avg": 3385.2,
+    "early_stop_pct": 57.5
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 0.6,
+    "recovery_se": 0.3,
+    "fwer_pct": 2.2,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0315,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 1.1,
+    "recovery_se": 0.4,
+    "fwer_pct": 1.8,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0014,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k10|synergy|hetero|400": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 40.1,
+    "recovery_se": 1.7,
+    "fwer_pct": 2.8,
+    "fwer_se": 0.8,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": -0.0013,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 39.1,
+    "recovery_se": 1.7,
+    "fwer_pct": 9.5,
+    "fwer_se": 1.5,
+    "alias_admit_pct": 5.5,
+    "est_alias_col": 0.045,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 41.6,
+    "recovery_se": 1.7,
+    "fwer_pct": 3.8,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": 0.0034,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 10.0,
+    "recovery_se": 1.1,
+    "fwer_pct": 3.2,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": -0.0002,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 33.4,
+    "recovery_se": 1.7,
+    "fwer_pct": 21.0,
+    "fwer_se": 2.0,
+    "alias_admit_pct": 4.2,
+    "est_alias_col": 0.0098,
+    "calls_avg": 209.1,
+    "early_stop_pct": 82.8
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 1.6,
+    "recovery_se": 0.4,
+    "fwer_pct": 1.8,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": 0.0236,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 1.2,
+    "recovery_se": 0.4,
+    "fwer_pct": 1.2,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": 0.0054,
+    "calls_avg": 400.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k10|synergy|hetero|1600": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 98.1,
+    "recovery_se": 0.5,
+    "fwer_pct": 2.5,
+    "fwer_se": 0.8,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": -0.0007,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 97.4,
+    "recovery_se": 0.6,
+    "fwer_pct": 26.5,
+    "fwer_se": 2.2,
+    "alias_admit_pct": 24.5,
+    "est_alias_col": 0.0464,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 98.4,
+    "recovery_se": 0.4,
+    "fwer_pct": 3.0,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 0.8,
+    "est_alias_col": -0.0016,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 46.8,
+    "recovery_se": 1.8,
+    "fwer_pct": 6.0,
+    "fwer_se": 1.2,
+    "alias_admit_pct": 1.0,
+    "est_alias_col": -0.0004,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 43.1,
+    "recovery_se": 1.8,
+    "fwer_pct": 18.8,
+    "fwer_se": 2.0,
+    "alias_admit_pct": 2.0,
+    "est_alias_col": 0.0177,
+    "calls_avg": 247.4,
+    "early_stop_pct": 100.0
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 11.4,
+    "recovery_se": 1.1,
+    "fwer_pct": 2.8,
+    "fwer_se": 0.8,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": 0.022,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 12.6,
+    "recovery_se": 1.2,
+    "fwer_pct": 1.5,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": 0.0003,
+    "calls_avg": 1600.0,
+    "early_stop_pct": 0.0
+   }
+  },
+  "k10|synergy|hetero|6400": {
+   "full/unpaired/fixed": {
+    "recovery_pct": 100.0,
+    "recovery_se": 0.0,
+    "fwer_pct": 2.8,
+    "fwer_se": 0.8,
+    "alias_admit_pct": 0.5,
+    "est_alias_col": -0.001,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res3/unpaired/fixed": {
+    "recovery_pct": 100.0,
+    "recovery_se": 0.0,
+    "fwer_pct": 89.0,
+    "fwer_se": 1.6,
+    "alias_admit_pct": 89.0,
+    "est_alias_col": 0.0475,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/fixed": {
+    "recovery_pct": 100.0,
+    "recovery_se": 0.0,
+    "fwer_pct": 2.2,
+    "fwer_se": 0.7,
+    "alias_admit_pct": 0.2,
+    "est_alias_col": -0.0008,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/fixed": {
+    "recovery_pct": 99.0,
+    "recovery_se": 0.4,
+    "fwer_pct": 1.5,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": 0.0002,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/unpaired/peek": {
+    "recovery_pct": 44.0,
+    "recovery_se": 1.8,
+    "fwer_pct": 14.8,
+    "fwer_se": 1.8,
+    "alias_admit_pct": 2.5,
+    "est_alias_col": 0.0162,
+    "calls_avg": 244.0,
+    "early_stop_pct": 100.0
+   },
+   "res3/paired/eproc": {
+    "recovery_pct": 90.2,
+    "recovery_se": 1.0,
+    "fwer_pct": 3.0,
+    "fwer_se": 0.9,
+    "alias_admit_pct": 1.8,
+    "est_alias_col": 0.0132,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   },
+   "res4/paired/eproc": {
+    "recovery_pct": 93.2,
+    "recovery_se": 0.9,
+    "fwer_pct": 1.5,
+    "fwer_se": 0.6,
+    "alias_admit_pct": 0.0,
+    "est_alias_col": 0.001,
+    "calls_avg": 6400.0,
+    "early_stop_pct": 0.0
+   }
+  }
+ }
+}

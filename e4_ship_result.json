@@ -1,0 +1,54 @@
+{
+ "prereg": {
+  "alpha2": 0.05,
+  "threshold": 20.0,
+  "c_hat": {
+   "step_budget": 1,
+   "reflect": -1,
+   "fewshot": -1,
+   "cosmetic_null": -1
+  },
+  "c_base": {
+   "step_budget": -1,
+   "reflect": -1,
+   "fewshot": -1,
+   "cosmetic_null": -1
+  },
+  "tau": "FZ screen decision row 56 (e3_power_qwen_fz_result.json)",
+  "budget_pairs": 80,
+  "seed": 20260828,
+  "model": "databricks/databricks-qwen3-next-80b-a3b-instruct",
+  "rule": "ship iff e >= 20 within budget; else rollback (no certificate)",
+  "failed_episode": "scored 0 (amended protocol)",
+  "registered_at": "2026-08-27T10:56:31"
+ },
+ "pairs": 32,
+ "fail_zero_pairs": 0,
+ "e_final": 45.193,
+ "threshold": 20.0,
+ "ship_certificate": true,
+ "decided_at_pair": 26,
+ "mean_Z": 0.1719,
+ "trace_tail": [
+  [
+   28,
+   21.495
+  ],
+  [
+   29,
+   31.1677
+  ],
+  [
+   30,
+   45.1932
+  ],
+  [
+   31,
+   45.1932
+  ],
+  [
+   32,
+   45.1932
+  ]
+ ]
+}

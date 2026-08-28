@@ -1,0 +1,218 @@
+{"row_id": 0, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 1, "fed": true, "task_id": "57", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 298758987}
+{"row_id": 2, "fed": true, "task_id": "57", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 603688708}
+{"row_id": 3, "fed": true, "task_id": "38", "x": {"step_budget": -1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 283791280}
+{"row_id": 4, "fed": true, "task_id": "84", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 199063981}
+{"row_id": 5, "fed": true, "task_id": "91", "x": {"step_budget": -1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 290952389}
+{"row_id": 6, "fed": true, "task_id": "53", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 776369629}
+{"row_id": 7, "fed": true, "task_id": "42", "x": {"step_budget": -1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 190079106}
+{"row_id": 8, "fed": true, "task_id": "13", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 826190040}
+{"row_id": 9, "fed": true, "task_id": "62", "x": {"step_budget": -1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 377064140}
+{"row_id": 10, "fed": true, "task_id": "54", "x": {"step_budget": -1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 122570827}
+{"row_id": 11, "fed": true, "task_id": "60", "x": {"step_budget": -1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 654692682}
+{"row_id": 12, "fed": true, "task_id": "106", "x": {"step_budget": -1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 827914364}
+{"row_id": 13, "fed": true, "task_id": "41", "x": {"step_budget": -1, "reflect": 1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 635411242}
+{"row_id": 14, "fed": true, "task_id": "18", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 496722206}
+{"row_id": 15, "fed": true, "task_id": "68", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 669529665}
+{"row_id": 16, "fed": true, "task_id": "105", "x": {"step_budget": -1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 843189191}
+{"row_id": 17, "fed": true, "task_id": "18", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 414633350}
+{"row_id": 18, "fed": true, "task_id": "13", "x": {"step_budget": -1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 756690613}
+{"row_id": 19, "fed": true, "task_id": "88", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 73021933}
+{"row_id": 20, "fed": true, "task_id": "89", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 58891927}
+{"row_id": 21, "fed": true, "task_id": "33", "x": {"step_budget": -1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 889537428}
+{"row_id": 22, "fed": true, "task_id": "101", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 28174525}
+{"row_id": 23, "fed": true, "task_id": "41", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 686052150}
+{"row_id": 24, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 25, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 26, "fed": true, "task_id": "38", "x": {"step_budget": -1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 962859177}
+{"row_id": 27, "fed": true, "task_id": "71", "x": {"step_budget": -1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 125074551}
+{"row_id": 28, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 29, "fed": true, "task_id": "66", "x": {"step_budget": -1, "reflect": 1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 193155239}
+{"row_id": 30, "fed": true, "task_id": "83", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 443906987}
+{"row_id": 31, "fed": true, "task_id": "68", "x": {"step_budget": -1, "reflect": 1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 685252718}
+{"row_id": 32, "fed": true, "task_id": "108", "x": {"step_budget": -1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 958328789}
+{"row_id": 33, "fed": true, "task_id": "99", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 45324494}
+{"row_id": 34, "fed": true, "task_id": "49", "x": {"step_budget": -1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 696565154}
+{"row_id": 35, "fed": true, "task_id": "50", "x": {"step_budget": -1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 524141904}
+{"row_id": 36, "fed": true, "task_id": "34", "x": {"step_budget": -1, "reflect": 1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 56044338}
+{"row_id": 37, "fed": true, "task_id": "2", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 628218277}
+{"row_id": 38, "fed": true, "task_id": "85", "x": {"step_budget": -1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 270703529}
+{"row_id": 39, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 40, "fed": true, "task_id": "91", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 787944843}
+{"row_id": 41, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 42, "fed": true, "task_id": "94", "x": {"step_budget": -1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 839106556}
+{"row_id": 43, "fed": true, "task_id": "71", "x": {"step_budget": -1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 717035511}
+{"row_id": 44, "fed": true, "task_id": "82", "x": {"step_budget": -1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 974044314}
+{"row_id": 45, "fed": true, "task_id": "77", "x": {"step_budget": -1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 131644960}
+{"row_id": 46, "fed": true, "task_id": "35", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 72012698}
+{"row_id": 47, "fed": true, "task_id": "49", "x": {"step_budget": -1, "reflect": 1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 634044336}
+{"row_id": 48, "fed": true, "task_id": "63", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 745626367}
+{"row_id": 49, "fed": true, "task_id": "44", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 263622362}
+{"row_id": 50, "fed": true, "task_id": "26", "x": {"step_budget": -1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 823523506}
+{"row_id": 51, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 52, "fed": true, "task_id": "107", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 656795506}
+{"row_id": 53, "fed": true, "task_id": "80", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 259915631}
+{"row_id": 54, "fed": true, "task_id": "59", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 633770072}
+{"row_id": 55, "fed": true, "task_id": "64", "x": {"step_budget": -1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 465823377}
+{"row_id": 56, "fed": true, "task_id": "69", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 794367916}
+{"row_id": 57, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 58, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 59, "fed": true, "task_id": "57", "x": {"step_budget": -1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 818406782}
+{"row_id": 60, "fed": true, "task_id": "98", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 197498746}
+{"row_id": 61, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 62, "fed": true, "task_id": "103", "x": {"step_budget": -1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 627122258}
+{"row_id": 63, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 64, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 65, "fed": true, "task_id": "36", "x": {"step_budget": -1, "reflect": 1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 544024616}
+{"row_id": 66, "fed": true, "task_id": "101", "x": {"step_budget": -1, "reflect": 1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 546237790}
+{"row_id": 67, "fed": true, "task_id": "39", "x": {"step_budget": -1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 259513493}
+{"row_id": 68, "fed": true, "task_id": "58", "x": {"step_budget": -1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 411167647}
+{"row_id": 69, "fed": true, "task_id": "41", "x": {"step_budget": -1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 112081184}
+{"row_id": 70, "fed": true, "task_id": "5", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 110474216}
+{"row_id": 71, "fed": true, "task_id": "39", "x": {"step_budget": -1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 509977065}
+{"row_id": 72, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 73, "fed": true, "task_id": "111", "x": {"step_budget": -1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 9905721}
+{"row_id": 74, "fed": true, "task_id": "24", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 261212375}
+{"row_id": 75, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 76, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 77, "fed": true, "task_id": "24", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 108979773}
+{"row_id": 78, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 79, "fed": true, "task_id": "70", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 74828581}
+{"row_id": 80, "fed": true, "task_id": "84", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 62081924}
+{"row_id": 81, "fed": true, "task_id": "1", "x": {"step_budget": -1, "reflect": 1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 722608936}
+{"row_id": 82, "fed": true, "task_id": "17", "x": {"step_budget": -1, "reflect": 1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 153202803}
+{"row_id": 83, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 84, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 85, "fed": true, "task_id": "79", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 876054058}
+{"row_id": 86, "fed": true, "task_id": "46", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 990315049}
+{"row_id": 87, "fed": true, "task_id": "14", "x": {"step_budget": -1, "reflect": 1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 178824028}
+{"row_id": 88, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 89, "fed": true, "task_id": "71", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 136214306}
+{"row_id": 90, "fed": true, "task_id": "49", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 907551300}
+{"row_id": 91, "fed": true, "task_id": "58", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 25602085}
+{"row_id": 92, "fed": true, "task_id": "88", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 564012078}
+{"row_id": 93, "fed": true, "task_id": "54", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 709710720}
+{"row_id": 94, "fed": true, "task_id": "17", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 875630954}
+{"row_id": 95, "fed": true, "task_id": "103", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 521128868}
+{"row_id": 96, "fed": true, "task_id": "64", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 681241428}
+{"row_id": 97, "fed": true, "task_id": "25", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 21999803}
+{"row_id": 98, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 99, "fed": true, "task_id": "71", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 816865332}
+{"row_id": 100, "fed": true, "task_id": "42", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 427273891}
+{"row_id": 101, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 102, "fed": true, "task_id": "89", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 168042211}
+{"row_id": 103, "fed": true, "task_id": "51", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 920939446}
+{"row_id": 104, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 105, "fed": true, "task_id": "6", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 309491965}
+{"row_id": 106, "fed": true, "task_id": "77", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 193401585}
+{"row_id": 107, "fed": true, "task_id": "44", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 356172406}
+{"row_id": 108, "fed": true, "task_id": "46", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 156895815}
+{"row_id": 109, "fed": true, "task_id": "57", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 966751622}
+{"row_id": 110, "fed": true, "task_id": "8", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 903774533}
+{"row_id": 111, "fed": true, "task_id": "1", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 85100368}
+{"row_id": 112, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 113, "fed": true, "task_id": "76", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 709698264}
+{"row_id": 114, "fed": true, "task_id": "56", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 305688576}
+{"row_id": 115, "fed": true, "task_id": "99", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 396354611}
+{"row_id": 116, "fed": true, "task_id": "18", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 519429}
+{"row_id": 117, "fed": true, "task_id": "56", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 157736665}
+{"row_id": 118, "fed": true, "task_id": "53", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 887329163}
+{"row_id": 119, "fed": true, "task_id": "1", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 875105761}
+{"row_id": 120, "fed": true, "task_id": "30", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 956220173}
+{"row_id": 121, "fed": false, "skip": "UserMessage must have either content or tool_calls. Got User"}
+{"row_id": 122, "fed": true, "task_id": "9", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 661285742}
+{"row_id": 123, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 124, "fed": true, "task_id": "98", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 746103607}
+{"row_id": 125, "fed": true, "task_id": "71", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 852062038}
+{"row_id": 126, "fed": true, "task_id": "33", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 837342671}
+{"row_id": 127, "fed": true, "task_id": "108", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 900235026}
+{"row_id": 128, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 129, "fed": true, "task_id": "62", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 30169217}
+{"row_id": 130, "fed": true, "task_id": "95", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 552417971}
+{"row_id": 131, "fed": true, "task_id": "32", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 445043871}
+{"row_id": 132, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 133, "fed": true, "task_id": "40", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 111175930}
+{"row_id": 134, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 135, "fed": false, "skip": "UserMessage must have either content or tool_calls. Got User"}
+{"row_id": 136, "fed": true, "task_id": "61", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 292698337}
+{"row_id": 137, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 138, "fed": true, "task_id": "90", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 872437669}
+{"row_id": 139, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 140, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 141, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 142, "fed": true, "task_id": "21", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 785112023}
+{"row_id": 143, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 144, "fed": true, "task_id": "0", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 201999736}
+{"row_id": 145, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 146, "fed": true, "task_id": "15", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 423116507}
+{"row_id": 147, "fed": true, "task_id": "38", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 2880393}
+{"row_id": 148, "fed": true, "task_id": "8", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 283216486}
+{"row_id": 149, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 150, "fed": true, "task_id": "94", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 570216959}
+{"row_id": 151, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 152, "fed": true, "task_id": "78", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 288938196}
+{"row_id": 153, "fed": true, "task_id": "65", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 777397667}
+{"row_id": 154, "fed": true, "task_id": "110", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 853436914}
+{"row_id": 155, "fed": true, "task_id": "1", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 872480710}
+{"row_id": 156, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 157, "fed": true, "task_id": "78", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 597654630}
+{"row_id": 158, "fed": true, "task_id": "88", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 201358670}
+{"row_id": 159, "fed": false, "skip": "UserMessage must have either content or tool_calls. Got User"}
+{"row_id": 160, "fed": true, "task_id": "1", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 729818089}
+{"row_id": 161, "fed": true, "task_id": "64", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 556199051}
+{"row_id": 162, "fed": true, "task_id": "17", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 784898954}
+{"row_id": 163, "fed": true, "task_id": "55", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 704158654}
+{"row_id": 164, "fed": false, "skip": "UserMessage must have either content or tool_calls. Got User"}
+{"row_id": 165, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 166, "fed": true, "task_id": "20", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 435900079}
+{"row_id": 167, "fed": true, "task_id": "110", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 676509288}
+{"row_id": 168, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 169, "fed": true, "task_id": "13", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 92693716}
+{"row_id": 170, "fed": true, "task_id": "83", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 106066162}
+{"row_id": 171, "fed": true, "task_id": "52", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 615885278}
+{"row_id": 172, "fed": true, "task_id": "86", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 706158912}
+{"row_id": 173, "fed": true, "task_id": "49", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 490927042}
+{"row_id": 174, "fed": true, "task_id": "67", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 523520028}
+{"row_id": 175, "fed": true, "task_id": "78", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 16828601}
+{"row_id": 176, "fed": true, "task_id": "17", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 681393902}
+{"row_id": 177, "fed": true, "task_id": "41", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 364504297}
+{"row_id": 178, "fed": true, "task_id": "76", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 785180788}
+{"row_id": 179, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 180, "fed": true, "task_id": "43", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 86107167}
+{"row_id": 181, "fed": true, "task_id": "106", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 592391242}
+{"row_id": 182, "fed": true, "task_id": "73", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 639825556}
+{"row_id": 183, "fed": true, "task_id": "107", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 970788779}
+{"row_id": 184, "fed": false, "skip": "UserMessage must have either content or tool_calls. Got User"}
+{"row_id": 185, "fed": true, "task_id": "54", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 961364498}
+{"row_id": 186, "fed": true, "task_id": "16", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 750707908}
+{"row_id": 187, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 188, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 189, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 190, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 191, "fed": true, "task_id": "72", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 379610192}
+{"row_id": 192, "fed": true, "task_id": "10", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 245200090}
+{"row_id": 193, "fed": true, "task_id": "3", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 142895128}
+{"row_id": 194, "fed": false, "skip": "UserMessage must have either content or tool_calls. Got User"}
+{"row_id": 195, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 196, "fed": true, "task_id": "18", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 789200484}
+{"row_id": 197, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 198, "fed": true, "task_id": "31", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 2855138}
+{"row_id": 199, "fed": true, "task_id": "55", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 695081548}
+{"row_id": 200, "fed": true, "task_id": "8", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 772287385}
+{"row_id": 201, "fed": true, "task_id": "111", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 162004930}
+{"row_id": 202, "fed": false, "skip": "UserMessage must have either content or tool_calls. Got User"}
+{"row_id": 203, "fed": true, "task_id": "0", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 978202539}
+{"row_id": 204, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 205, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 206, "fed": true, "task_id": "24", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 565110851}
+{"row_id": 207, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 208, "fed": false, "skip": "UserMessage must have either content or tool_calls. Got User"}
+{"row_id": 209, "fed": true, "task_id": "47", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 964221476}
+{"row_id": 210, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 211, "fed": true, "task_id": "56", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 288268698}
+{"row_id": 212, "fed": true, "task_id": "88", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 648801993}
+{"row_id": 213, "fed": true, "task_id": "57", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 200543034}
+{"row_id": 214, "fed": true, "task_id": "17", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 40207879}
+{"row_id": 215, "fed": false, "skip": "AssistantMessage must have either content or tool_calls. Got"}
+{"row_id": 216, "fed": true, "task_id": "103", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 749848604}
+{"row_id": 217, "fed": true, "task_id": "65", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 507028291}

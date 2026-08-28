@@ -1,0 +1,12 @@
+{
+ "gamma_0.08": {
+  "alias_admit_pct": 54.5,
+  "count": 218,
+  "reps": 400
+ },
+ "gamma_0.16": {
+  "alias_admit_pct": 100.0,
+  "count": 400,
+  "reps": 400
+ }
+}

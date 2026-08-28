@@ -1,0 +1,36 @@
+{
+ "reps": 300,
+ "target_realised_null": 0.0033333333333333335,
+ "grid": {
+  "0.05": {
+   "true_adoptions": 0.0,
+   "any_false_rate": 0.0
+  },
+  "0.10": {
+   "true_adoptions": 0.0,
+   "any_false_rate": 0.0
+  },
+  "0.20": {
+   "true_adoptions": 0.0,
+   "any_false_rate": 0.0
+  },
+  "0.30": {
+   "true_adoptions": 0.0,
+   "any_false_rate": 0.0
+  },
+  "0.45": {
+   "true_adoptions": 0.0,
+   "any_false_rate": 0.0
+  }
+ },
+ "matched_alpha": 0.45,
+ "fixed_safe_matched": {
+  "true_adoptions": 2.26,
+  "any_false_rate": 0.0
+ },
+ "ontology_nominal": {
+  "true_adoptions": 2.54,
+  "any_false_rate": 0.0
+ },
+ "gain_pct_at_matched": 12.4
+}

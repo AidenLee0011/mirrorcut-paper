@@ -1,0 +1,239 @@
+{"row_id": 0, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 1, "fed": true, "task_id": "87", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 267466803}
+{"row_id": 2, "fed": true, "task_id": "90", "x": {"step_budget": -1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 461750237}
+{"row_id": 3, "fed": true, "task_id": "78", "x": {"step_budget": -1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 709917125}
+{"row_id": 4, "fed": true, "task_id": "55", "x": {"step_budget": -1, "reflect": 1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 492963543}
+{"row_id": 5, "fed": true, "task_id": "80", "x": {"step_budget": -1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 807823613}
+{"row_id": 6, "fed": true, "task_id": "96", "x": {"step_budget": -1, "reflect": 1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 415703981}
+{"row_id": 7, "fed": true, "task_id": "72", "x": {"step_budget": -1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 566957312}
+{"row_id": 8, "fed": true, "task_id": "9", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 444693720}
+{"row_id": 9, "fed": true, "task_id": "94", "x": {"step_budget": -1, "reflect": 1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 845082386}
+{"row_id": 10, "fed": true, "task_id": "83", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 770030123}
+{"row_id": 11, "fed": true, "task_id": "84", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 207754089}
+{"row_id": 12, "fed": true, "task_id": "49", "x": {"step_budget": -1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 996782985}
+{"row_id": 13, "fed": true, "task_id": "74", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 357981317}
+{"row_id": 14, "fed": true, "task_id": "61", "x": {"step_budget": -1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 438312787}
+{"row_id": 15, "fed": true, "task_id": "93", "x": {"step_budget": -1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 74431186}
+{"row_id": 16, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 17, "fed": true, "task_id": "74", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 352955538}
+{"row_id": 18, "fed": true, "task_id": "101", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 561016518}
+{"row_id": 19, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 20, "fed": true, "task_id": "69", "x": {"step_budget": -1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 463450016}
+{"row_id": 21, "fed": true, "task_id": "53", "x": {"step_budget": -1, "reflect": 1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 48299704}
+{"row_id": 22, "fed": true, "task_id": "74", "x": {"step_budget": -1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 891674387}
+{"row_id": 23, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 24, "fed": true, "task_id": "82", "x": {"step_budget": -1, "reflect": 1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 562331862}
+{"row_id": 25, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 26, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 27, "fed": true, "task_id": "9", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 922591135}
+{"row_id": 28, "fed": true, "task_id": "101", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 314825110}
+{"row_id": 29, "fed": true, "task_id": "78", "x": {"step_budget": -1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 798048945}
+{"row_id": 30, "fed": true, "task_id": "87", "x": {"step_budget": -1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 901447897}
+{"row_id": 31, "fed": true, "task_id": "6", "x": {"step_budget": -1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 338218162}
+{"row_id": 32, "fed": true, "task_id": "34", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 469070149}
+{"row_id": 33, "fed": true, "task_id": "23", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 225843820}
+{"row_id": 34, "fed": true, "task_id": "23", "x": {"step_budget": -1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 313745858}
+{"row_id": 35, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 36, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 37, "fed": true, "task_id": "99", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 314993288}
+{"row_id": 38, "fed": true, "task_id": "75", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 232078717}
+{"row_id": 39, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 40, "fed": true, "task_id": "15", "x": {"step_budget": -1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 418172480}
+{"row_id": 41, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 42, "fed": true, "task_id": "10", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 752333061}
+{"row_id": 43, "fed": true, "task_id": "100", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 845487616}
+{"row_id": 44, "fed": true, "task_id": "6", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 840507589}
+{"row_id": 45, "fed": true, "task_id": "51", "x": {"step_budget": -1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 724840152}
+{"row_id": 46, "fed": true, "task_id": "96", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 47558536}
+{"row_id": 47, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 48, "fed": true, "task_id": "1", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 940000809}
+{"row_id": 49, "fed": true, "task_id": "64", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 637460852}
+{"row_id": 50, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 51, "fed": true, "task_id": "81", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 23266235}
+{"row_id": 52, "fed": true, "task_id": "100", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 475164590}
+{"row_id": 53, "fed": true, "task_id": "94", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 777270742}
+{"row_id": 54, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 55, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 56, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 57, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 58, "fed": true, "task_id": "69", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 114299582}
+{"row_id": 59, "fed": true, "task_id": "66", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 523617554}
+{"row_id": 60, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 61, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 62, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 63, "fed": true, "task_id": "18", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 837951679}
+{"row_id": 64, "fed": true, "task_id": "88", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 661062069}
+{"row_id": 65, "fed": true, "task_id": "52", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 508172865}
+{"row_id": 66, "fed": true, "task_id": "33", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 915501120}
+{"row_id": 67, "fed": true, "task_id": "55", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 563543187}
+{"row_id": 68, "fed": true, "task_id": "64", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 621620010}
+{"row_id": 69, "fed": true, "task_id": "92", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 742901171}
+{"row_id": 70, "fed": true, "task_id": "56", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 45581410}
+{"row_id": 71, "fed": true, "task_id": "0", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 601914360}
+{"row_id": 72, "fed": true, "task_id": "98", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 724968861}
+{"row_id": 73, "fed": true, "task_id": "32", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 745873779}
+{"row_id": 74, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 75, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 76, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 77, "fed": true, "task_id": "52", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 789594651}
+{"row_id": 78, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 79, "fed": true, "task_id": "32", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 195048873}
+{"row_id": 80, "fed": true, "task_id": "84", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 476960027}
+{"row_id": 81, "fed": true, "task_id": "77", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 227863669}
+{"row_id": 82, "fed": true, "task_id": "20", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 433341976}
+{"row_id": 83, "fed": true, "task_id": "23", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 78580513}
+{"row_id": 84, "fed": true, "task_id": "94", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 974748745}
+{"row_id": 85, "fed": true, "task_id": "83", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 908879552}
+{"row_id": 86, "fed": true, "task_id": "94", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 649289915}
+{"row_id": 87, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 88, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 89, "fed": true, "task_id": "5", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 144152370}
+{"row_id": 90, "fed": true, "task_id": "23", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 307063543}
+{"row_id": 91, "fed": true, "task_id": "9", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 870588681}
+{"row_id": 92, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 93, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 94, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 95, "fed": true, "task_id": "92", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 737458071}
+{"row_id": 96, "fed": true, "task_id": "56", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 53610969}
+{"row_id": 97, "fed": true, "task_id": "49", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 476225486}
+{"row_id": 98, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 99, "fed": true, "task_id": "17", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 197813931}
+{"row_id": 100, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 101, "fed": true, "task_id": "55", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 205384646}
+{"row_id": 102, "fed": true, "task_id": "48", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 693528508}
+{"row_id": 103, "fed": true, "task_id": "48", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 651405762}
+{"row_id": 104, "fed": true, "task_id": "112", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 662229039}
+{"row_id": 105, "fed": true, "task_id": "97", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 383693927}
+{"row_id": 106, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 107, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 108, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 109, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 110, "fed": true, "task_id": "96", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 769573750}
+{"row_id": 111, "fed": true, "task_id": "61", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 254684914}
+{"row_id": 112, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 113, "fed": true, "task_id": "58", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 120919667}
+{"row_id": 114, "fed": true, "task_id": "94", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 993345295}
+{"row_id": 115, "fed": true, "task_id": "98", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 609904985}
+{"row_id": 116, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 117, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 118, "fed": true, "task_id": "27", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 893105958}
+{"row_id": 119, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 120, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 121, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 122, "fed": true, "task_id": "84", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 949628449}
+{"row_id": 123, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 124, "fed": true, "task_id": "7", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 729877055}
+{"row_id": 125, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 126, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 127, "fed": true, "task_id": "25", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 734721464}
+{"row_id": 128, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 129, "fed": true, "task_id": "10", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 615435573}
+{"row_id": 130, "fed": true, "task_id": "73", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 24112081}
+{"row_id": 131, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 132, "fed": true, "task_id": "17", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 904707809}
+{"row_id": 133, "fed": true, "task_id": "100", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 325945380}
+{"row_id": 134, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 135, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 136, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 137, "fed": true, "task_id": "79", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 706406323}
+{"row_id": 138, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 139, "fed": true, "task_id": "87", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 584690200}
+{"row_id": 140, "fed": true, "task_id": "48", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 236517194}
+{"row_id": 141, "fed": true, "task_id": "79", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 200962370}
+{"row_id": 142, "fed": true, "task_id": "23", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 770824020}
+{"row_id": 143, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 144, "fed": true, "task_id": "32", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 146074308}
+{"row_id": 145, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 146, "fed": true, "task_id": "25", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 927037628}
+{"row_id": 147, "fed": true, "task_id": "26", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 758312649}
+{"row_id": 148, "fed": true, "task_id": "22", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 100789264}
+{"row_id": 149, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 150, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 151, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 152, "fed": true, "task_id": "14", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 240433142}
+{"row_id": 153, "fed": true, "task_id": "10", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 107174445}
+{"row_id": 154, "fed": true, "task_id": "32", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 561392038}
+{"row_id": 155, "fed": true, "task_id": "11", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 362979138}
+{"row_id": 156, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 157, "fed": true, "task_id": "88", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 250438829}
+{"row_id": 158, "fed": true, "task_id": "56", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 62024863}
+{"row_id": 159, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 160, "fed": true, "task_id": "1", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 968514972}
+{"row_id": 161, "fed": true, "task_id": "66", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 426906805}
+{"row_id": 162, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 163, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 164, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 165, "fed": true, "task_id": "42", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 741932107}
+{"row_id": 166, "fed": true, "task_id": "25", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 460838009}
+{"row_id": 167, "fed": true, "task_id": "53", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 405773784}
+{"row_id": 168, "fed": true, "task_id": "56", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 990581154}
+{"row_id": 169, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 170, "fed": true, "task_id": "65", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 311324487}
+{"row_id": 171, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 172, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 173, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 174, "fed": true, "task_id": "52", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 448163373}
+{"row_id": 175, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 176, "fed": true, "task_id": "96", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 721523748}
+{"row_id": 177, "fed": true, "task_id": "73", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 179015175}
+{"row_id": 178, "fed": true, "task_id": "99", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 450250697}
+{"row_id": 179, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 180, "fed": true, "task_id": "22", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 855356737}
+{"row_id": 181, "fed": true, "task_id": "92", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 130531375}
+{"row_id": 182, "fed": true, "task_id": "92", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 84139055}
+{"row_id": 183, "fed": true, "task_id": "91", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 447350151}
+{"row_id": 184, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 185, "fed": true, "task_id": "77", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 858980167}
+{"row_id": 186, "fed": true, "task_id": "12", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 970175373}
+{"row_id": 187, "fed": true, "task_id": "26", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 819563957}
+{"row_id": 188, "fed": true, "task_id": "56", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 926073469}
+{"row_id": 189, "fed": true, "task_id": "88", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 673941760}
+{"row_id": 190, "fed": true, "task_id": "23", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 569134914}
+{"row_id": 191, "fed": true, "task_id": "74", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 746884891}
+{"row_id": 192, "fed": true, "task_id": "31", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 319636330}
+{"row_id": 193, "fed": true, "task_id": "93", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 72935722}
+{"row_id": 194, "fed": true, "task_id": "96", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 896919932}
+{"row_id": 195, "fed": true, "task_id": "51", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 52208409}
+{"row_id": 196, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 197, "fed": true, "task_id": "77", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 949374112}
+{"row_id": 198, "fed": true, "task_id": "25", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 632735869}
+{"row_id": 199, "fed": true, "task_id": "13", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 130838078}
+{"row_id": 200, "fed": true, "task_id": "15", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 826612763}
+{"row_id": 201, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 202, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 203, "fed": true, "task_id": "64", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 586271439}
+{"row_id": 204, "fed": true, "task_id": "1", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 795806117}
+{"row_id": 205, "fed": true, "task_id": "7", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 979528866}
+{"row_id": 206, "fed": true, "task_id": "20", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 331262459}
+{"row_id": 207, "fed": true, "task_id": "102", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 852335132}
+{"row_id": 208, "fed": true, "task_id": "49", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 28824652}
+{"row_id": 209, "fed": true, "task_id": "57", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 180136022}
+{"row_id": 210, "fed": true, "task_id": "33", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 859937277}
+{"row_id": 211, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 212, "fed": true, "task_id": "35", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 604910493}
+{"row_id": 213, "fed": true, "task_id": "69", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 761853050}
+{"row_id": 214, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 215, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 216, "fed": true, "task_id": "17", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 883743197}
+{"row_id": 217, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 218, "fed": true, "task_id": "78", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 884547838}
+{"row_id": 219, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 220, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 221, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 222, "fed": true, "task_id": "102", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 47254553}
+{"row_id": 223, "fed": true, "task_id": "6", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 653148197}
+{"row_id": 224, "fed": true, "task_id": "66", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 789175407}
+{"row_id": 225, "fed": true, "task_id": "7", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 714281120}
+{"row_id": 226, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 227, "fed": true, "task_id": "99", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 0.0, "seed": 794738291}
+{"row_id": 228, "fed": true, "task_id": "72", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 420497927}
+{"row_id": 229, "fed": true, "task_id": "27", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 1.0, "seed": 272636200}
+{"row_id": 230, "fed": true, "task_id": "80", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 144944765}
+{"row_id": 231, "fed": true, "task_id": "11", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 622176985}
+{"row_id": 232, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 233, "fed": false, "skip": "Expecting value: line 1 column 1 (char 0)"}
+{"row_id": 234, "fed": true, "task_id": "82", "x": {"step_budget": 1, "reflect": 1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 0.0, "y_minus": 0.0, "seed": 810609799}
+{"row_id": 235, "fed": true, "task_id": "78", "x": {"step_budget": 1, "reflect": -1, "fewshot": -1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 675879033}
+{"row_id": 236, "fed": true, "task_id": "96", "x": {"step_budget": 1, "reflect": -1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 462130061}
+{"row_id": 237, "fed": true, "task_id": "13", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": 1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 63408277}
+{"row_id": 238, "fed": true, "task_id": "88", "x": {"step_budget": 1, "reflect": 1, "fewshot": 1, "cosmetic_null": -1}, "y_plus": 1.0, "y_minus": 1.0, "seed": 569218541}

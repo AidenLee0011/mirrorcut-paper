@@ -1,0 +1,14 @@
+{
+ "artifact": "e2_reserved_continuation_prereg",
+ "registered": "2026-08-28",
+ "system": "production runtime pruning (strict guardrail), Stage-2 reserved-stream retest",
+ "state_at_registration": {
+  "discordant_pairs": "4-0 (wins-losses)",
+  "ties": 28,
+  "e_process": "undecided, below 1/alpha_2",
+  "alpha2": 0.05
+ },
+ "stopping_rule": "Collect further reserved paired contrasts of the frozen configuration c_hat vs c_base, in arrival order, every attempted pair included (amended scoring: failures scored 0, no drops). Update the Stage-2 e-process with predictable bets. Ship c_hat iff the e-process ever crosses 1/alpha_2 = 20 within the budget; otherwise retain c_base. No interim protocol changes.",
+ "budget_additional_pairs": 64,
+ "analysis": "terminal e-value reported regardless of outcome"
+}

@@ -1,0 +1,20 @@
+{
+ "declared_at": "2026-08-26 19:09:11",
+ "purpose": "amended protocol (failure scored as prespecified worst outcome 0.0, no abandonment)",
+ "model": "databricks/databricks-qwen3-next-80b-a3b-instruct",
+ "domain": "retail",
+ "rows": 160,
+ "batch": 8,
+ "seed": 20260826,
+ "components": [
+  "step_budget",
+  "reflect",
+  "fewshot",
+  "cosmetic_null"
+ ],
+ "hypothesis": "planted step_budget admits; planted cosmetic_null stays undecided",
+ "alpha": 0.05,
+ "threshold": "k/alpha = 80",
+ "ledger": "e3_power_qwen_fz_ledger.jsonl",
+ "result": "e3_power_qwen_fz_result.json"
+}

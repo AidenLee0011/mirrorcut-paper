@@ -1,0 +1,13 @@
+{
+ "alpha": 0.16666666666666666,
+ "threshold": 6.0,
+ "fwer_shortcut_exact": 0.2,
+ "fwer_closure_exact": 0.0,
+ "fwer_shortcut_mc": 0.20132,
+ "mc_n": 200000,
+ "e_values": {
+  "E1": "10 on A (P=0.1) else 0",
+  "E2": "10 on B (P=0.1) else 0",
+  "E3": "9 constant (false null)"
+ }
+}

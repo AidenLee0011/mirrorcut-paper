@@ -1,0 +1,361 @@
+{
+ "batch": 8,
+ "rows_target": 160,
+ "alpha": 0.05,
+ "families": {
+  "haiku": {
+   "rows_drawn": 239,
+   "abandoned": 79,
+   "live_decided_fed_row": 37,
+   "live_decided_row_id": 46,
+   "abandons_before_decision": 10,
+   "reconstruction": "fed-row assignments match ledger exactly",
+   "association": {
+    "step_budget": {
+     "retained_plus": 17,
+     "dropped_plus": 0,
+     "retained_minus": 20,
+     "dropped_minus": 11,
+     "retain_rate_plus": 1.0,
+     "retain_rate_minus": 0.6452,
+     "fisher_p": 0.0043
+    },
+    "reflect": {
+     "retained_plus": 78,
+     "dropped_plus": 45,
+     "retained_minus": 82,
+     "dropped_minus": 34,
+     "retain_rate_plus": 0.6341,
+     "retain_rate_minus": 0.7069,
+     "fisher_p": 0.2715
+    },
+    "fewshot": {
+     "retained_plus": 83,
+     "dropped_plus": 44,
+     "retained_minus": 77,
+     "dropped_minus": 35,
+     "retain_rate_plus": 0.6535,
+     "retain_rate_minus": 0.6875,
+     "fisher_p": 0.5851
+    },
+    "cosmetic_null": {
+     "retained_plus": 77,
+     "dropped_plus": 36,
+     "retained_minus": 83,
+     "dropped_minus": 43,
+     "retain_rate_plus": 0.6814,
+     "retain_rate_minus": 0.6587,
+     "fisher_p": 0.7833
+    },
+    "step_budget*reflect": {
+     "retained_plus": 17,
+     "dropped_plus": 5,
+     "retained_minus": 20,
+     "dropped_minus": 6,
+     "retain_rate_plus": 0.7727,
+     "retain_rate_minus": 0.7692,
+     "fisher_p": 1.0
+    },
+    "step_budget*fewshot": {
+     "retained_plus": 20,
+     "dropped_plus": 3,
+     "retained_minus": 17,
+     "dropped_minus": 8,
+     "retain_rate_plus": 0.8696,
+     "retain_rate_minus": 0.68,
+     "fisher_p": 0.1733
+    },
+    "step_budget*cosmetic_null": {
+     "retained_plus": 19,
+     "dropped_plus": 6,
+     "retained_minus": 18,
+     "dropped_minus": 5,
+     "retain_rate_plus": 0.76,
+     "retain_rate_minus": 0.7826,
+     "fisher_p": 1.0
+    },
+    "reflect*fewshot": {
+     "retained_plus": 79,
+     "dropped_plus": 40,
+     "retained_minus": 81,
+     "dropped_minus": 39,
+     "retain_rate_plus": 0.6639,
+     "retain_rate_minus": 0.675,
+     "fisher_p": 0.8911
+    },
+    "reflect*cosmetic_null": {
+     "retained_plus": 79,
+     "dropped_plus": 36,
+     "retained_minus": 81,
+     "dropped_minus": 43,
+     "retain_rate_plus": 0.687,
+     "retain_rate_minus": 0.6532,
+     "fisher_p": 0.5856
+    },
+    "fewshot*cosmetic_null": {
+     "retained_plus": 80,
+     "dropped_plus": 33,
+     "retained_minus": 80,
+     "dropped_minus": 46,
+     "retain_rate_plus": 0.708,
+     "retain_rate_minus": 0.6349,
+     "fisher_p": 0.271
+    }
+   },
+   "worst_split": {
+    "key": "step_budget",
+    "retained_plus": 17,
+    "dropped_plus": 0,
+    "retained_minus": 20,
+    "dropped_minus": 11,
+    "retain_rate_plus": 1.0,
+    "retain_rate_minus": 0.6452,
+    "fisher_p": 0.0043
+   },
+   "min_fisher_p": 0.0043,
+   "seed": 20260820,
+   "adversarial_step_budget": {
+    "verdict": "pruned",
+    "evidence_for": 1.326,
+    "decided_at_row": 163,
+    "rows": 163
+   }
+  },
+  "gpt_oss": {
+   "rows_drawn": 218,
+   "abandoned": 58,
+   "live_decided_fed_row": 70,
+   "live_decided_row_id": 87,
+   "abandons_before_decision": 18,
+   "reconstruction": "fed-row assignments match ledger exactly",
+   "association": {
+    "step_budget": {
+     "retained_plus": 31,
+     "dropped_plus": 9,
+     "retained_minus": 39,
+     "dropped_minus": 9,
+     "retain_rate_plus": 0.775,
+     "retain_rate_minus": 0.8125,
+     "fisher_p": 0.792
+    },
+    "reflect": {
+     "retained_plus": 78,
+     "dropped_plus": 37,
+     "retained_minus": 82,
+     "dropped_minus": 21,
+     "retain_rate_plus": 0.6783,
+     "retain_rate_minus": 0.7961,
+     "fisher_p": 0.0651
+    },
+    "fewshot": {
+     "retained_plus": 81,
+     "dropped_plus": 28,
+     "retained_minus": 79,
+     "dropped_minus": 30,
+     "retain_rate_plus": 0.7431,
+     "retain_rate_minus": 0.7248,
+     "fisher_p": 0.8783
+    },
+    "cosmetic_null": {
+     "retained_plus": 86,
+     "dropped_plus": 34,
+     "retained_minus": 74,
+     "dropped_minus": 24,
+     "retain_rate_plus": 0.7167,
+     "retain_rate_minus": 0.7551,
+     "fisher_p": 0.5418
+    },
+    "step_budget*reflect": {
+     "retained_plus": 30,
+     "dropped_plus": 7,
+     "retained_minus": 40,
+     "dropped_minus": 11,
+     "retain_rate_plus": 0.8108,
+     "retain_rate_minus": 0.7843,
+     "fisher_p": 0.796
+    },
+    "step_budget*fewshot": {
+     "retained_plus": 37,
+     "dropped_plus": 12,
+     "retained_minus": 33,
+     "dropped_minus": 6,
+     "retain_rate_plus": 0.7551,
+     "retain_rate_minus": 0.8462,
+     "fisher_p": 0.4257
+    },
+    "step_budget*cosmetic_null": {
+     "retained_plus": 37,
+     "dropped_plus": 11,
+     "retained_minus": 33,
+     "dropped_minus": 7,
+     "retain_rate_plus": 0.7708,
+     "retain_rate_minus": 0.825,
+     "fisher_p": 0.6024
+    },
+    "reflect*fewshot": {
+     "retained_plus": 81,
+     "dropped_plus": 27,
+     "retained_minus": 79,
+     "dropped_minus": 31,
+     "retain_rate_plus": 0.75,
+     "retain_rate_minus": 0.7182,
+     "fisher_p": 0.647
+    },
+    "reflect*cosmetic_null": {
+     "retained_plus": 84,
+     "dropped_plus": 29,
+     "retained_minus": 76,
+     "dropped_minus": 29,
+     "retain_rate_plus": 0.7434,
+     "retain_rate_minus": 0.7238,
+     "fisher_p": 0.7612
+    },
+    "fewshot*cosmetic_null": {
+     "retained_plus": 73,
+     "dropped_plus": 32,
+     "retained_minus": 87,
+     "dropped_minus": 26,
+     "retain_rate_plus": 0.6952,
+     "retain_rate_minus": 0.7699,
+     "fisher_p": 0.2237
+    }
+   },
+   "worst_split": {
+    "key": "reflect",
+    "retained_plus": 78,
+    "dropped_plus": 37,
+    "retained_minus": 82,
+    "dropped_minus": 21,
+    "retain_rate_plus": 0.6783,
+    "retain_rate_minus": 0.7961,
+    "fisher_p": 0.0651
+   },
+   "min_fisher_p": 0.0651,
+   "seed": 20260821,
+   "adversarial_step_budget": {
+    "verdict": "active",
+    "evidence_for": 0.758,
+    "decided_at_row": null,
+    "rows": 218
+   }
+  },
+  "qwen3": {
+   "rows_drawn": 191,
+   "abandoned": 31,
+   "live_decided_fed_row": 64,
+   "live_decided_row_id": 63,
+   "abandons_before_decision": 0,
+   "reconstruction": "fed-row assignments match ledger exactly",
+   "association": {
+    "step_budget": {
+     "retained_plus": 22,
+     "dropped_plus": 0,
+     "retained_minus": 42,
+     "dropped_minus": 0,
+     "retain_rate_plus": 1.0,
+     "retain_rate_minus": 1.0,
+     "fisher_p": 1.0
+    },
+    "reflect": {
+     "retained_plus": 70,
+     "dropped_plus": 18,
+     "retained_minus": 90,
+     "dropped_minus": 13,
+     "retain_rate_plus": 0.7955,
+     "retain_rate_minus": 0.8738,
+     "fisher_p": 0.17
+    },
+    "fewshot": {
+     "retained_plus": 82,
+     "dropped_plus": 11,
+     "retained_minus": 78,
+     "dropped_minus": 20,
+     "retain_rate_plus": 0.8817,
+     "retain_rate_minus": 0.7959,
+     "fisher_p": 0.12
+    },
+    "cosmetic_null": {
+     "retained_plus": 87,
+     "dropped_plus": 15,
+     "retained_minus": 73,
+     "dropped_minus": 16,
+     "retain_rate_plus": 0.8529,
+     "retain_rate_minus": 0.8202,
+     "fisher_p": 0.5611
+    },
+    "step_budget*reflect": {
+     "retained_plus": 31,
+     "dropped_plus": 0,
+     "retained_minus": 33,
+     "dropped_minus": 0,
+     "retain_rate_plus": 1.0,
+     "retain_rate_minus": 1.0,
+     "fisher_p": 1.0
+    },
+    "step_budget*fewshot": {
+     "retained_plus": 31,
+     "dropped_plus": 0,
+     "retained_minus": 33,
+     "dropped_minus": 0,
+     "retain_rate_plus": 1.0,
+     "retain_rate_minus": 1.0,
+     "fisher_p": 1.0
+    },
+    "step_budget*cosmetic_null": {
+     "retained_plus": 29,
+     "dropped_plus": 0,
+     "retained_minus": 35,
+     "dropped_minus": 0,
+     "retain_rate_plus": 1.0,
+     "retain_rate_minus": 1.0,
+     "fisher_p": 1.0
+    },
+    "reflect*fewshot": {
+     "retained_plus": 78,
+     "dropped_plus": 12,
+     "retained_minus": 82,
+     "dropped_minus": 19,
+     "retain_rate_plus": 0.8667,
+     "retain_rate_minus": 0.8119,
+     "fisher_p": 0.3319
+    },
+    "reflect*cosmetic_null": {
+     "retained_plus": 71,
+     "dropped_plus": 16,
+     "retained_minus": 89,
+     "dropped_minus": 15,
+     "retain_rate_plus": 0.8161,
+     "retain_rate_minus": 0.8558,
+     "fisher_p": 0.5553
+    },
+    "fewshot*cosmetic_null": {
+     "retained_plus": 83,
+     "dropped_plus": 15,
+     "retained_minus": 77,
+     "dropped_minus": 16,
+     "retain_rate_plus": 0.8469,
+     "retain_rate_minus": 0.828,
+     "fisher_p": 0.8448
+    }
+   },
+   "worst_split": {
+    "key": "fewshot",
+    "retained_plus": 82,
+    "dropped_plus": 11,
+    "retained_minus": 78,
+    "dropped_minus": 20,
+    "retain_rate_plus": 0.8817,
+    "retain_rate_minus": 0.7959,
+    "fisher_p": 0.12
+   },
+   "min_fisher_p": 0.12,
+   "seed": 20260820,
+   "adversarial_step_budget": {
+    "verdict": "admitted",
+    "evidence_for": 91.24,
+    "decided_at_row": 53,
+    "rows": 53
+   }
+  }
+ }
+}

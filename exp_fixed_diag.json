@@ -1,0 +1,9 @@
+{
+ "arm": "res4/unpaired/fixed",
+ "cell": "k10|null|hetero|6400",
+ "reps": 4000,
+ "fwer_pct": 5.47,
+ "se_pct": 0.36,
+ "count": 219,
+ "hashseed": 0
+}

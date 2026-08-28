@@ -1,0 +1,43 @@
+{
+ "reps": 400,
+ "cell": "k10|hetero|6400",
+ "target_realised_null_pct": 2.2,
+ "alphas": {
+  "0.05": {
+   "null_fwer_pct": 1.0
+  },
+  "0.10": {
+   "null_fwer_pct": 0.25
+  },
+  "0.20": {
+   "null_fwer_pct": 1.75
+  },
+  "0.30": {
+   "null_fwer_pct": 6.75
+  },
+  "0.45": {
+   "null_fwer_pct": 8.25
+  }
+ },
+ "matched": {
+  "alpha": 0.2,
+  "null_fwer_pct": 1.75,
+  "main_recovery_pct": 95.0
+ },
+ "k5": {
+  "target_spend_null_pct": 3.2,
+  "alphas": {
+   "0.20": {
+    "null_fwer_pct": 2.75
+   },
+   "0.30": {
+    "null_fwer_pct": 7.0
+   }
+  },
+  "matched": {
+   "alpha": 0.2,
+   "null_fwer_pct": 2.75,
+   "main_recovery_pct": 97.8
+  }
+ }
+}

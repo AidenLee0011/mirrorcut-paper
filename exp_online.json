@@ -1,0 +1,60 @@
+{
+ "params": {
+  "P0": 0.45,
+  "DELTA": 0.2,
+  "ALPHA": 0.05,
+  "STREAM": 120,
+  "BUDGET": 12000,
+  "CAP_PAIRS": 300,
+  "K_SAFE": 400,
+  "classes": {
+   "retrieval": 0.4,
+   "memory": 0.1,
+   "formatting": 0.0,
+   "persona": 0.0,
+   "tooling": 0.2
+  }
+ },
+ "results": {
+  "fixed_true": {
+   "reps": 300,
+   "world": "mixed",
+   "power": 0.10892074870569494,
+   "true_adoptions": 1.8233333333333333,
+   "false_adoption_rate": 0.0,
+   "false_adoptions": 0.0,
+   "calls": 12000.0,
+   "skipped": 0.0
+  },
+  "fixed_safe": {
+   "reps": 300,
+   "world": "mixed",
+   "power": 0.08223815213062526,
+   "true_adoptions": 1.3766666666666667,
+   "false_adoption_rate": 0.0,
+   "false_adoptions": 0.0,
+   "calls": 12000.0,
+   "skipped": 0.0
+  },
+  "online": {
+   "reps": 300,
+   "world": "mixed",
+   "power": 0.12743926722421345,
+   "true_adoptions": 2.1333333333333333,
+   "false_adoption_rate": 0.0,
+   "false_adoptions": 0.0,
+   "calls": 12000.0,
+   "skipped": 0.0
+  },
+  "ontology": {
+   "reps": 300,
+   "world": "mixed",
+   "power": 0.15173237753882915,
+   "true_adoptions": 2.54,
+   "false_adoption_rate": 0.0,
+   "false_adoptions": 0.0,
+   "calls": 11528.746666666666,
+   "skipped": 30.07
+  }
+ }
+}

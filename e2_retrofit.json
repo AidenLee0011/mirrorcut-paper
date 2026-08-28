@@ -1,0 +1,29 @@
+{
+ "reserved_share_target": 0.3,
+ "ledger_rows": 450,
+ "fed": 331,
+ "reserved_rows_excluded": 119,
+ "retro_summary": {
+  "admitted": [],
+  "pruned": [
+   "strict"
+  ],
+  "undecided": [
+   "digest",
+   "search_hint",
+   "reflect",
+   "fewshot"
+  ],
+  "rows": 331
+ },
+ "verdict_matches_live": true,
+ "decided_at_row": 126,
+ "confirm_reserved_pairs": 32,
+ "wins_off_better": 4,
+ "losses": 0,
+ "ties": 28,
+ "sign_test_p_one_sided": 0.0625,
+ "alpha2": 0.05,
+ "pass": false,
+ "strict_evidence_against_at_end": 111.037
+}
