@@ -1,3 +1,5 @@
+import sys, pathlib
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent / "package"))
 """Controlled power demo: one MONOTONE component (step_budget) that must help, plus null
 controls. Admission must fire on step_budget, nulls stay undecided. Anytime-valid, public
 benchmark (tau2 retail, Anthropic lane). Demonstrates the admission process on real data.
@@ -9,7 +11,7 @@ from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE)); sys.path.insert(0, str(HERE/"tau2-bench"/"src"))
-sys.path.insert(0, "D:/SH_DA_Agent_202602/da_backend/oss/doppel"); sys.path.insert(0, "D:/SH_DA_Agent_202602")
+
 MODEL=os.environ.get("E3_MODEL","anthropic/claude-haiku-4-5-20251001")
 os.environ.setdefault("TAU2_LLM_NL_ASSERTIONS",MODEL)
 os.environ.setdefault("TAU2_LLM_ENV_INTERFACE",MODEL)

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>mirrorcut doctor - is your adopt-if-better lying to you?</title>
+<style>
+  body { font: 17px/1.55 Georgia, 'Times New Roman', serif; background:#faf7f2; color:#141414;
+         max-width: 680px; margin: 40px auto; padding: 0 18px; }
+  h1 { font-size: 26px; margin-bottom: 4px; }
+  .sub { color:#5a5248; margin-top: 0; }
+  .card { background:#fff; border:1px solid #e4ddd2; border-radius:10px; padding:20px 22px; margin:18px 0; }
+  label { display:block; margin:10px 0 2px; font-weight:700; font-size:14px; }
+  input[type=range] { width:100%; }
+  .val { font-variant-numeric: tabular-nums; color:#5a5248; font-size:14px; }
+  .big { font-size: 44px; font-weight:700; margin: 6px 0 0; font-variant-numeric: tabular-nums; }
+  .danger { color:#c9553d; }
+  .ok { color:#2f6f7a; }
+  .note { font-size:14px; color:#5a5248; }
+  code { background:#f0ebe2; padding:1px 5px; border-radius:4px; font-size:15px; }
+  a { color:#2f6f7a; }
+</style>
+</head>
+<body>
+<h1>Is your adopt-if-better lying to you?</h1>
+<p class="sub">Exact arithmetic, computed in your browser. No install, no tracking.</p>
+
+<div class="card">
+  <label>Candidates per round (prompt edits, switches, variants) <span class="val" id="kv"></span></label>
+  <input type="range" id="k" min="1" max="20" value="8">
+  <label>Evaluation runs per side <span class="val" id="nv"></span></label>
+  <input type="range" id="n" min="20" max="1000" step="20" value="320">
+</div>
+
+<div class="card">
+  <div class="note">Probability you adopt at least one <b>do-nothing</b> candidate this round,
+  with the rule "run champion and variant, adopt if the variant scores higher":</div>
+  <div class="big danger" id="round">-</div>
+  <div class="note" id="per"></div>
+  <div class="note" style="margin-top:10px">Why noise doesn't save you: an inert candidate ties or
+  wins its comparison by symmetry - adopt-if-better has no null hypothesis, so more noise doesn't
+  change the false-adoption rate, it changes how much regression you eat after adopting.</div>
+</div>
+
+<div class="card">
+  <div class="note">The same candidates judged with one e-process each
+  (<a href="https://github.com/AidenLee0011/mirrorcut">mirrorcut</a>), at the same budget:</div>
+  <div class="big ok">&le; 5% per round, at any stopping time</div>
+  <div class="note">family-wise across all candidates; look at the evidence whenever you like.
+  <code>pip install mirrorcut && mirrorcut demo</code></div>
+</div>
+
+<p class="note">The arithmetic: with n runs per side and a tie-splitting win rule, an inert
+candidate wins with q = (1 - P(tie))/2; the round-level rate is 1 - (1-q)<sup>k</sup>.
+P(tie) is the central term of the difference of two Binomial(n, p) draws; q &rarr; 1/2 as n grows.
+Measured on a production agent (replay flip 11.7%) the same arithmetic held to three decimals -
+the paper in the repo has the receipts.</p>
+
+<script>
+function lg(x){
+  const g=[676.5203681218851,-1259.1392167224028,771.32342877765313,-176.61502916214059,
+           12.507343278686905,-0.13857109526572012,9.9843695780195716e-6,1.5056327351493116e-7];
+  if (x < 0.5) return Math.log(Math.PI/Math.sin(Math.PI*x)) - lg(1-x);
+  x -= 1; let a = 0.99999999999980993;
+  for (let i=0;i<8;i++) a += g[i]/(x+i+1);
+  const t = x + 7.5;
+  return 0.5*Math.log(2*Math.PI) + (x+0.5)*Math.log(t) - t + Math.log(a);
+}
+function lchoose(n, k) { return lg(n+1) - lg(k+1) - lg(n-k+1); }
+function update(){
+  const k = +document.getElementById('k').value;
+  const n = +document.getElementById('n').value;
+  document.getElementById('kv').textContent = '= ' + k;
+  document.getElementById('nv').textContent = '= ' + n;
+  let m = -Infinity; const terms = [];
+  for (let i=0;i<=n;i++){ const t = 2*lchoose(n,i) - n*Math.log(4); terms.push(t); if (t>m) m=t; }
+  let tie = 0; for (const t of terms) tie += Math.exp(t-m); tie *= Math.exp(m);
+  const q = (1-tie)/2;
+  const round = 1 - Math.pow(1-q, k);
+  document.getElementById('round').textContent = (100*round).toFixed(1) + '%';
+  document.getElementById('per').textContent =
+    'per inert candidate: ' + (100*q).toFixed(1) + '% (tie probability ' + (100*tie).toFixed(1) + '%)';
+}
+document.getElementById('k').addEventListener('input', update);
+document.getElementById('n').addEventListener('input', update);
+update();
+</script>
+</body>
+</html>

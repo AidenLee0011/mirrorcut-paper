@@ -1,3 +1,5 @@
+import sys, pathlib
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent / "package"))
 # -*- coding: utf-8 -*-
 """Attrition audit (review-2 critical fix, P41.13).
 
@@ -21,7 +23,7 @@ import json, math, sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-sys.path.insert(0, "D:/SH_DA_Agent_202602/da_backend/oss/doppel")
+
 from mirrorcut import MirrorScreen
 
 COMPONENTS = ["step_budget", "reflect", "fewshot", "cosmetic_null"]

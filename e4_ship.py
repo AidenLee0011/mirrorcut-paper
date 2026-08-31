@@ -1,3 +1,5 @@
+import sys, pathlib
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent / "package"))
 """Prospective Stage-2 ship certificate on the planted control (P45 r21 fix4).
 
 Frozen configuration c_hat = FZ screen decision (step_budget ON, all else base) frozen
@@ -15,7 +17,7 @@ from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE)); sys.path.insert(0, str(HERE/"tau2-bench"/"src"))
-sys.path.insert(0, "D:/SH_DA_Agent_202602/da_backend/oss/doppel"); sys.path.insert(0, "D:/SH_DA_Agent_202602")
+
 MODEL = os.environ.get("E3_MODEL", "databricks/databricks-qwen3-next-80b-a3b-instruct")
 os.environ.setdefault("TAU2_LLM_NL_ASSERTIONS", MODEL)
 os.environ.setdefault("TAU2_LLM_ENV_INTERFACE", MODEL)

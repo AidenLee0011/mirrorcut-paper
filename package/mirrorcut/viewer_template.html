@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>mirrorcut - screening, replayed</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@latest/dist/web/static/pretendard.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap">
+<style>
+:root{--bg:#f6f5f2;--panel:#ffffff;--line:#e5e1d8;--ink:#1c1a17;--sub:#6b665c;--faint:#9d968a;
+--mono:'JetBrains Mono',ui-monospace,monospace;--warm:#c9553d;--cool:#2f6f7a;--ok:#3d7a4f;--mute:#8a8f8a;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.5 Pretendard,-apple-system,Segoe UI,sans-serif;}
+.hd{display:flex;align-items:baseline;gap:14px;padding:16px 26px 10px;}
+.hd b{font-size:19px;letter-spacing:-.2px}
+.hd .tag{font-size:12px;color:var(--sub)}
+.hd .live{margin-left:auto;font-family:var(--mono);font-size:11.5px;color:var(--faint)}
+.fbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:9px 26px;background:var(--panel);
+border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
+.fbar .flb{font-size:11px;color:var(--sub);font-weight:600}
+.btn{font:600 11.5px Pretendard;color:var(--ink);background:var(--panel);border:1px solid var(--line);
+border-radius:7px;padding:5px 12px;cursor:pointer}
+.btn.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+input[type=range]{width:340px;accent-color:var(--cool)}
+.rown{font-family:var(--mono);font-size:12px;min-width:118px;color:var(--sub)}
+.wrap{padding:14px 26px 26px;}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px;}
+svg text{font-family:Pretendard,sans-serif}
+.mono{font-family:var(--mono)}
+.foot{display:flex;gap:26px;flex-wrap:wrap;padding:12px 26px 24px;font-family:var(--mono);font-size:12px;color:var(--sub)}
+.foot b{color:var(--ink);font-weight:700}
+a{color:var(--cool)}
+</style>
+</head>
+<body>
+<div class="hd"><b>mirrorcut</b><span class="tag">every run travels with its mirror &middot; it decides.</span>
+<span class="live" id="dsname"></span>
+<span id="livedot" style="display:none;font:700 11px var(--mono);color:#c9553d;margin-left:10px">&#9679; LIVE</span></div>
+<div class="fbar">
+  <button class="btn on" id="play">PAUSE</button>
+  <span class="flb">speed</span>
+  <button class="btn spd" data-s="0.45">slow</button>
+  <button class="btn spd on" data-s="0.8">normal</button>
+  <button class="btn spd" data-s="3">fast</button>
+  <button class="btn spd" data-s="14">skim</button>
+  <button class="btn" id="follow" style="display:none">FOLLOW</button>
+  <input type="range" id="scrub" min="0" value="0">
+  <span class="rown" id="rown"></span>
+  <span class="flb" style="margin-left:auto" id="note"></span>
+</div>
+<!--__EXPLAIN__--> 
+<div class="wrap" style="padding-bottom:0"><div class="panel" id="caption"
+style="font-size:14px;padding:11px 16px;display:flex;gap:14px;align-items:baseline">
+<span class="mono" id="cap-row" style="color:var(--sub);min-width:74px"></span>
+<span id="cap-main" style="font-weight:600"></span>
+<span id="cap-sub" style="color:var(--sub);font-size:12.5px"></span></div></div>
+<div class="wrap"><div class="panel"><svg id="stage" width="100%" viewBox="0 0 1815 560"></svg></div></div>
+<div class="foot" id="foot"></div>
+<script>
+const DATA = /*__DATA__*/null;
+const META = /*__META__*/{};
+const N = DATA.names, K = N.length, TH = DATA.threshold;
+let ROWS = DATA.rows;
+document.getElementById('scrub').max = ROWS.length - 1;
+document.getElementById('dsname').textContent = META.dataset || '';
+document.getElementById('note').textContent = META.note || '';
+const S = document.getElementById('stage');
+const NS = 'http://www.w3.org/2000/svg';
+function el(tag, attrs, parent, text){
+  const e = document.createElementNS(NS, tag);
+  for (const k in attrs) e.setAttribute(k, attrs[k]);
+  (parent || S).appendChild(e);
+  if (text !== undefined) e.textContent = text;
+  return e;
+}
+const C = getComputedStyle(document.documentElement);
+const col = v => C.getPropertyValue(v).trim();
+const WARM = col('--warm'), COOL = col('--cool'), INK = col('--ink'),
+      SUB = col('--sub'), LINE = col('--line'), OK = col('--ok'), MUTE = col('--mute');
+
+// ---- static architecture -------------------------------------------------
+const laneY = {x: 150, m: 410};               // config lane / mirror lane
+const chipX0 = 240, chipW = 108, chipGap = 14;
+const runX = chipX0 + K*(chipW+chipGap) + 30; // agent nodes
+const meterX = runX + 300;                    // evidence rail
+el('text', {x:24, y:60, 'font-size':13, fill:SUB, 'font-weight':700}, S, 'one task, two runs');
+// task node
+const task = el('g', {}, S);
+el('rect', {x:24, y:250, width:120, height:62, rx:10, fill:'#fff', stroke:INK, 'stroke-width':1.4}, task);
+el('text', {x:84, y:276, 'text-anchor':'middle', 'font-size':13, 'font-weight':700, fill:INK}, task, 'TASK');
+const taskId = el('text', {x:84, y:296, 'text-anchor':'middle', 'font-size':11, fill:SUB, class:'mono'}, task, '');
+// lane headers
+el('text', {x:chipX0, y:laneY.x-46, 'font-size':12.5, 'font-weight':700, fill:WARM}, S, 'config  x');
+el('text', {x:chipX0, y:laneY.m-46, 'font-size':12.5, 'font-weight':700, fill:COOL}, S, 'mirror  -x   (every undecided switch flipped)');
+// flow edges task->lanes->run->y
+function edge(x1,y1,x2,y2,c){ return el('path',{d:`M ${x1} ${y1} C ${x1+60} ${y1}, ${x2-60} ${y2}, ${x2} ${y2}`,fill:'none',stroke:c,'stroke-width':1.6,opacity:.65}); }
+edge(144,270,chipX0-14,laneY.x, WARM); edge(144,292,chipX0-14,laneY.m, COOL);
+// switch chips (two lanes)
+const chips = {x:[], m:[]};
+for (const lane of ['x','m']){
+  for (let i=0;i<K;i++){
+    const gx = chipX0 + i*(chipW+chipGap), gy = laneY[lane]-26;
+    const g = el('g', {}, S);
+    const r = el('rect', {x:gx, y:gy, width:chipW, height:52, rx:26, fill:'#fff', stroke:LINE, 'stroke-width':1.6}, g);
+    const t = el('text', {x:gx+chipW/2, y:gy+22, 'text-anchor':'middle','font-size':11,fill:SUB}, g, N[i]);
+    const s = el('text', {x:gx+chipW/2, y:gy+40, 'text-anchor':'middle','font-size':12,'font-weight':800,fill:MUTE,class:'mono'}, g, 'OFF');
+    chips[lane].push({r,s,t});
+    if (i<K-1) el('path',{d:`M ${gx+chipW} ${laneY[lane]} l ${chipGap} 0`,stroke:LINE,'stroke-width':1.4});
+  }
+}
+// run + outcome nodes per lane
+const outc = {};
+for (const lane of ['x','m']){
+  const y = laneY[lane], c = lane==='x'?WARM:COOL;
+  edge(chipX0+K*(chipW+chipGap)-chipGap, y, runX, y, c);
+  const g = el('g', {}, S);
+  el('rect',{x:runX,y:y-24,width:96,height:48,rx:9,fill:'#fff',stroke:c,'stroke-width':1.6},g);
+  el('text',{x:runX+48,y:y-4,'text-anchor':'middle','font-size':12,'font-weight':700,fill:c},g,'AGENT');
+  el('text',{x:runX+48,y:y+13,'text-anchor':'middle','font-size':10,fill:SUB},g,'same task');
+  edge(runX+96,y,runX+170,y,c);
+  const og = el('g',{},S);
+  const orect = el('rect',{x:runX+170,y:y-20,width:64,height:40,rx:8,fill:'#fff',stroke:c,'stroke-width':1.6},og);
+  const otxt = el('text',{x:runX+202,y:y+5,'text-anchor':'middle','font-size':13,'font-weight':800,fill:c,class:'mono'},og,'-');
+  outc[lane] = {orect, otxt};
+}
+// difference node
+const dx = runX+234, dyy = 280;
+edge(dx, laneY.x, dx+64, dyy-12, WARM); edge(dx, laneY.m, dx+64, dyy+12, COOL);
+el('rect',{x:dx+64,y:dyy-26,width:104,height:52,rx:10,fill:INK},S);
+el('text',{x:dx+116,y:dyy-6,'text-anchor':'middle','font-size':12,'font-weight':700,fill:'#fff'},S,'d = Δ / 2');
+const dval = el('text',{x:dx+116,y:dyy+14,'text-anchor':'middle','font-size':12,fill:'#f6f5f2',class:'mono'},S,'');
+// evidence rail: one meter per switch
+el('text',{x:meterX+30,y:56,'font-size':13,fill:SUB,'font-weight':700},S,'one e-process per switch');
+el('text',{x:meterX+30,y:74,'font-size':11,fill:SUB},S,'solid = evidence for, hollow = evidence against, decide whenever you like');
+const meters = [];
+const mY0 = 100, mH = 420/K;
+const lo = Math.log(0.04), hi = Math.log(TH*1.6);
+const mW = 250, mBarX = meterX + 118;
+function mlen(v){ const c=Math.max(0.04,Math.min(v,TH*1.6)); return (Math.log(c)-lo)/(hi-lo)*mW; }
+for (let i=0;i<K;i++){
+  const y = mY0 + i*mH + mH/2;
+  edge(dx+168, dyy, mBarX-30, y, '#b9b3a7');
+  const g = el('g',{},S);
+  el('text',{x:mBarX,y:y-16,'font-size':11.5,'font-weight':700,fill:INK},g,N[i]);
+  // threshold tick
+  const tx = mBarX + mlen(TH);
+  el('line',{x1:mBarX,y1:y+3,x2:mBarX+mW,y2:y+3,stroke:LINE,'stroke-width':1},g);
+  el('line',{x1:tx,y1:y-14,x2:tx,y2:y+16,stroke:INK,'stroke-dasharray':'3,3'},g);
+  if (i===0) el('text',{x:tx,y:y-20,'text-anchor':'middle','font-size':10,fill:SUB,class:'mono'},g,'k/α='+TH.toFixed(0));
+  const up = el('rect',{x:mBarX,y:y-8,width:1,height:9,rx:2,fill:OK},g);
+  const dn = el('rect',{x:mBarX,y:y+5,width:1,height:6,rx:2,fill:'none',stroke:WARM,'stroke-width':1.4},g);
+  const badge = el('text',{x:mBarX+mW+14,y:y+4,'font-size':11.5,'font-weight':800,fill:MUTE},g,'');
+  const vals = el('text',{x:mBarX+90,y:y-16,'font-size':10,fill:SUB,class:'mono'},g,'');
+  meters.push({up,dn,badge,vals,y});
+}
+// ---- replay --------------------------------------------------------------
+let idx = 0, playing = true, speed = 0.8, acc = 0, lastT = 0;
+const scrub = document.getElementById('scrub'), rown = document.getElementById('rown');
+const capRow = document.getElementById('cap-row'), capMain = document.getElementById('cap-main'),
+      capSub = document.getElementById('cap-sub'), capBox = document.getElementById('caption');
+const T = Object.assign({
+  same_pass: "both runs PASS - outcomes agree, d = 0: nothing to learn, evidence stays put",
+  same_fail: "both runs FAIL - outcomes agree, d = 0: nothing to learn, evidence stays put",
+  disc_x: "the config side PASSED and the mirror FAILED - d = +0.5: every switch that was ON gains evidence-for, every OFF one gains evidence-against",
+  disc_m: "the mirror side PASSED and the config FAILED - d = -0.5: every switch that was ON gains evidence-against, every OFF one gains evidence-for",
+  decided: "DECISION - ", row: "row", disc_note: "only rows like this move the meters"
+}, META.captions || {});
+function caption(i){
+  const r = ROWS[i];
+  const prev = i>0 ? ROWS[i-1].st : N.map(()=> 'a');
+  capRow.textContent = T.row+' '+(i+1);
+  let decidedNow = [];
+  for (let j=0;j<K;j++) if (prev[j]==='a' && r.st[j]!=='a')
+    decidedNow.push(N[j]+' '+({d:'ADMITTED',p:'PRUNED',r:'retired'})[r.st[j]]);
+  if (decidedNow.length){
+    capMain.textContent = T.decided + decidedNow.join(', ');
+    capMain.style.color = 'var(--warm)';
+    capSub.textContent = '';
+    capBox.style.borderColor = 'var(--warm)';
+    return;
+  }
+  capBox.style.borderColor = 'var(--line)';
+  if (r.y === r.ym){
+    capMain.textContent = r.y ? T.same_pass : T.same_fail;
+    capMain.style.color = 'var(--faint)'; capMain.style.fontWeight = '500';
+    capSub.textContent = '';
+  } else {
+    capMain.textContent = r.y ? T.disc_x : T.disc_m;
+    capMain.style.color = 'var(--ink)'; capMain.style.fontWeight = '700';
+    capSub.textContent = T.disc_note;
+  }
+}
+function render(i){
+  const r = ROWS[i];
+  const prev = i>0 ? ROWS[i-1].st : N.map(()=> 'a');
+  const discordant = r.y !== r.ym;
+  for (let j=0;j<K;j++){
+    const active = prev[j]==='a';
+    const xOn = r.cfg[j]===1;
+    const mOn = active ? !xOn : xOn;
+    for (const [lane, on] of [['x', xOn], ['m', mOn]]){
+      const c = chips[lane][j], base = lane==='x'?WARM:COOL;
+      c.r.setAttribute('fill', on ? base : '#fff');
+      c.r.setAttribute('stroke', on ? base : LINE);
+      c.s.textContent = on ? 'ON' : 'OFF';
+      c.s.setAttribute('fill', on ? '#fff' : MUTE);
+      c.t.setAttribute('fill', on ? '#fff' : SUB);
+      c.r.setAttribute('opacity', active ? 1 : .45);
+    }
+  }
+  taskId.textContent = 'row ' + (i+1);
+  outc.x.otxt.textContent = r.y ? 'PASS' : 'FAIL';
+  outc.x.otxt.setAttribute('fill', r.y ? OK : WARM);
+  outc.m.otxt.textContent = r.ym ? 'PASS' : 'FAIL';
+  outc.m.otxt.setAttribute('fill', r.ym ? OK : WARM);
+  const d = (r.y - r.ym)/2;
+  dval.textContent = (d>0?'+':'')+d.toFixed(1);
+  // discordant emphasis: bold the difference node ring via outcome boxes
+  outc.x.orect.setAttribute('stroke-width', discordant ? 3 : 1.6);
+  outc.m.orect.setAttribute('stroke-width', discordant ? 3 : 1.6);
+  for (let j=0;j<K;j++){
+    const m = meters[j];
+    m.up.setAttribute('width', Math.max(1.5, mlen(r.up[j])));
+    m.dn.setAttribute('width', Math.max(1.5, mlen(r.dn[j])));
+    m.vals.textContent = r.up[j].toFixed(1)+' / '+r.dn[j].toFixed(1);
+    const st = r.st[j];
+    if (st==='a'){ m.badge.textContent='undecided'; m.badge.setAttribute('fill',MUTE); m.badge.setAttribute('font-weight','500'); }
+    else if (st==='d'){ m.badge.textContent='ADMITTED'; m.badge.setAttribute('fill',OK); m.badge.setAttribute('font-weight','800'); }
+    else if (st==='p'){ m.badge.textContent='PRUNED'; m.badge.setAttribute('fill',WARM); m.badge.setAttribute('font-weight','800'); }
+    else { m.badge.textContent='retired'; m.badge.setAttribute('fill',MUTE); }
+  }
+  scrub.value = i;
+  rown.textContent = 'row '+(i+1)+' / '+ROWS.length+'  ('+(2*(i+1))+' invocations)';
+  caption(i);
+}
+function tick(ts){
+  if (!lastT) lastT = ts;
+  const dt = (ts - lastT)/1000; lastT = ts;
+  if (playing){
+    // speed = rows per second; discordant and decision rows hold ~2.2x longer at low speeds
+    const r = ROWS[Math.min(idx, ROWS.length-1)];
+    const hold = (speed < 2 && r && r.y !== r.ym) ? 2.2 : 1;
+    acc += dt * speed / hold;
+    if (acc >= 1){
+      const step = Math.max(1, Math.floor(acc));
+      idx = Math.min(idx + step, ROWS.length-1);
+      acc = 0;
+      render(idx);
+    }
+    if (idx >= ROWS.length-1){ playing=false; document.getElementById('play').textContent='REPLAY'; }
+  }
+  requestAnimationFrame(tick);
+}
+document.getElementById('play').onclick = function(){
+  if (idx >= ROWS.length-1){ idx=0; render(0); }
+  playing = !playing;
+  this.textContent = playing ? 'PAUSE' : 'PLAY';
+};
+document.querySelectorAll('.spd').forEach(b=>b.onclick=function(){
+  document.querySelectorAll('.spd').forEach(x=>x.classList.remove('on'));
+  this.classList.add('on'); speed = +this.dataset.s;
+});
+scrub.oninput = function(){ idx = +this.value; playing=false; document.getElementById('play').textContent='PLAY'; render(idx); };
+const foot = document.getElementById('foot');
+foot.innerHTML = (META.footer||[]).map(x=>'<span>'+x+'</span>').join('');
+render(0); requestAnimationFrame(tick);
+// ---- live tail-follow: poll a data URL and append new rows -----------------
+if (META.live_url){
+  document.getElementById('livedot').style.display='inline';
+  const fb = document.getElementById('follow');
+  fb.style.display='inline-block';
+  let following = true;
+  fb.classList.add('on');
+  fb.onclick = ()=>{ following=!following; fb.classList.toggle('on', following); };
+  async function poll(){
+    try{
+      const r = await fetch(META.live_url + '?t=' + Date.now(), {cache:'no-store'});
+      const j = await r.json();
+      if (j.rows && j.rows.length > ROWS.length){
+        ROWS = j.rows;
+        scrub.max = ROWS.length - 1;
+        if (following){ idx = ROWS.length - 1; playing = false;
+          document.getElementById('play').textContent='PLAY'; render(idx); }
+      }
+    }catch(e){}
+    setTimeout(poll, 4000);
+  }
+  poll();
+}
+</script>
+</body>
+</html>

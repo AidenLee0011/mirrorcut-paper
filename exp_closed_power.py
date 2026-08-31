@@ -1,3 +1,5 @@
+import sys, pathlib
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent / "package"))
 # -*- coding: utf-8 -*-
 """Closed testing vs k/alpha threshold: the spread-evidence cell, measured.
 
@@ -12,7 +14,7 @@ exp_closed_power.json for build-time injection.
 import json, random, sys
 from pathlib import Path
 
-sys.path.insert(0, "D:/SH_DA_Agent_202602/da_backend/oss/doppel")
+
 from mirrorcut import MirrorScreen
 
 K, EFF, ROWS, REPS, ALPHA = 5, 0.06, 600, 200, 0.05

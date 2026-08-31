@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mirrorcut"
+version = "0.4.0"
+description = "Which parts of your agent harness earn their place. Mirror-paired, anytime-valid screening."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "Apache-2.0" }
+keywords = ["llm", "agents", "evaluation", "experiment design", "sequential testing", "e-values"]
+classifiers = [
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = []
+
+[project.scripts]
+mirrorcut = "mirrorcut.__main__:main"
+
+[project.urls]
+Homepage = "https://github.com/AidenLee0011/mirrorcut"
+Source = "https://github.com/AidenLee0011/mirrorcut"
+Issues = "https://github.com/AidenLee0011/mirrorcut/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["mirrorcut"]
+
+[tool.setuptools.package-data]
+mirrorcut = ["py.typed"]
