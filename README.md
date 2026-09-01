@@ -6,10 +6,6 @@
 - Direct link: https://github.com/AidenLee0011/mirrorcut-paper/raw/main/paper/MirrorCut_preprint.pdf
 - Under review at TMLR. This repository holds the pre-registration files, experiment ledgers and analysis code behind every number in the manuscript.
 
-
-Artifacts for *MirrorCut: From Component Screening to a Shipping Certificate for LLM Agent Harnesses*
-(NeurIPS 2026 Workshop on E-Values submission). License: CC BY 4.0 (see LICENSE).
-
 ## Table 1 (claims-to-artefact ledger) row-to-file map
 
 | Table 1 row | Files |
