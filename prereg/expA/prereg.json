@@ -1,0 +1,35 @@
+{
+ "paper": "MirrorCut experiment A",
+ "prereg_md_sha256": "5b0dfa5b5722c4f66c38378e213e944dcda09d62900e9094531a479c151cfb3f",
+ "alpha_A": 0.016666666666666666,
+ "alpha_P": 0.016666666666666666,
+ "alpha_C": 0.016666666666666666,
+ "threshold": 240,
+ "row_cap": 160,
+ "components": [
+  "c1_guard",
+  "c2_schema",
+  "c3_canon",
+  "c4_checklist"
+ ],
+ "expected_positive": "c1_guard",
+ "endpoint": "databricks-qwen3-next-80b-a3b-instruct",
+ "reserve": {
+  "retail": 40,
+  "airline": 24
+ },
+ "split_rule": "HMAC-SHA256(key=beacon outputValue, msg=task_id) ascending; first n per domain reserved",
+ "beacon_pulse_time": "2026-09-02T09:11:00.000Z",
+ "beacon_pulse_output": "EDA994134B4B00C29431462BB149A6FDAD5CCABDE1BCA49A865189DB0B4EADF57BDEC17C456BC94B1EDB7507486859BCF18D56147D4385028EA5ED533B9725F7",
+ "beacon_pulse_uri": "https://beacon.nist.gov/beacon/2.0/chain/2/pulse/1923587",
+ "tau2_bench_commit": "a2c024725189",
+ "components_code_sha256": "cf7b763d30cef1c56c22581f3a240d897219748f984e8c4332e549adbd343b3b",
+ "driver_code_sha256": "a3931e0ee7d88d801b9107cd8a79198a81854902a522f2146f8193e422df479b",
+ "registered_utc_local_clock": "2026-09-02T09:11:36Z",
+ "stop_rules": [
+  "first admission ends screening",
+  "no admission by row 160 -> null screen, no post hoc configuration",
+  "serving model string change -> abort lane"
+ ],
+ "confirmation": "64 reserved pairs, one-sided exact sign test p<=1/60, ties excluded from statistic, worst outcome 0.0 on failure"
+}
